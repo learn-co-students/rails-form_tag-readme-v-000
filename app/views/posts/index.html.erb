@@ -1,0 +1,8 @@
+<h1>Welcome to your Blog!</h1>
+
+<h4>All Post</h4>
+<ul>
+<% @posts.each do |post| %>
+<li><%= link_to post.title, post_path(post) %></li>
+<% end %>
+</ul>
