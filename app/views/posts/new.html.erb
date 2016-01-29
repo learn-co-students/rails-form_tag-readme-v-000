@@ -1,0 +1,19 @@
+<h3>Post Form</h3>
+
+<%= form_tag posts_path do %>
+  <label>Post title:</label><br>
+  <%= text_field_tag :title %><br>
+
+  <label>Post Description</label><br>
+  <%= text_area_tag :description %><br>
+
+  <%= submit_tag "Submit Post" %>
+<% end %>
+
+<%= params.inspect %>
+
+<!-- Here is the output of params.inspect:
+
+{"post"=>{"action"=>"create", "authenticity_token"=>"886SkgbdP+NW9gEeyZDPtIH5RzPtcdcDZy+2JE/gP61pW4QsLym1LoW+aAOgwXjGvirhZ00Two4d+c+nNQdy7g==", "controller"=>"posts", "post_description"=>"Kittens are meowing.", "post_title"=>"Kittens"}, "controller"=>"posts", "action"=>"new"}
+
+-->
