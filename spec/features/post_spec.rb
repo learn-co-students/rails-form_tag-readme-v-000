@@ -11,7 +11,7 @@ describe 'new post' do
     expect(page).to have_content("Post Form")
   end
 
-  it 'shows a new form that submits content and redirects to new page and prints out params' do
+  it 'shows a form that submits content and redirects to the new page and prints out params' do
     visit new_post_path
 
     fill_in 'title', with: "My post title"
