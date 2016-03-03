@@ -13,7 +13,7 @@ This lesson is going to begin with integrating HTML form elements and then slowl
 
 
 ## Rendering the form view
-
+ 
 Today we'll be giving the user the ability to create a new post in our BlogFlash application. Let's first create a Capybara spec to ensure that going to `posts/new` takes us to our form. If you remember back to the rails route helper lesson, we now know we don't need to hard code the route into our tests any longer. Let's use the standard RESTful convention of `new_post_path` for the route helper name:
 
 ```ruby
@@ -86,10 +86,10 @@ This fails for obvious reasons, let's follow the TDD process and let the failure
 
 <form>
   <label>Post title:</label><br>
-  <input type="text" id="post_title" name="post_title"><br>
+  <input type="text" id="post_title" name="title"><br>
 
   <label>Post Description</label><br>
-  <textarea id="post_description" name="post_description"></textarea><br>
+  <textarea id="post_description" name="description"></textarea><br>
 
   <input type="submit" value="Submit Post">
 </form>
