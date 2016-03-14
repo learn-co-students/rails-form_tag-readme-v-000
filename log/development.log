@@ -909,3 +909,57 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"VhSVP2uvHcR8Vg/5ETvxzFUbGcWky4rxV2BW07lXHWaFsJVuiA5aKDPyjK3xBuPolJpYZVsaKzMfeVmlA3aWGg==", "controller"=>"posts", "post_description"=>"all the butts\r\n", "post_title"=>"butts"}}
   Rendered posts/new.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-03-14 15:00:05 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-03-14 15:00:11 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u26yNz9hURr28xhfgrcpkOOBTRGa6+M88vQfPhe3lhpoyrJm3MAW9rlXmwtiiju0IgAMsWU6Qv667RBIrZYdZg==", "post_title"=>"more butts", "post_description"=>"more of them\r\n"}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=u26yNz9hURr28xhfgrcpkOOBTRGa6%2BM88vQfPhe3lhpoyrJm3MAW9rlXmwtiiju0IgAMsWU6Qv667RBIrZYdZg%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=more+of+them%0D%0A&post%5Bpost_title%5D=more+butts&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=u26yNz9hURr28xhfgrcpkOOBTRGa6%2BM88vQfPhe3lhpoyrJm3MAW9rlXmwtiiju0IgAMsWU6Qv667RBIrZYdZg%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=more+of+them%0D%0A&post%5Bpost_title%5D=more+butts&post%5Butf8%5D=%E2%9C%93" for ::1 at 2016-03-14 15:00:11 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"u26yNz9hURr28xhfgrcpkOOBTRGa6+M88vQfPhe3lhpoyrJm3MAW9rlXmwtiiju0IgAMsWU6Qv667RBIrZYdZg==", "controller"=>"posts", "post_description"=>"more of them\r\n", "post_title"=>"more butts", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-03-14 15:02:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u26yNz9hURr28xhfgrcpkOOBTRGa6+M88vQfPhe3lhpoyrJm3MAW9rlXmwtiiju0IgAMsWU6Qv667RBIrZYdZg==", "post_title"=>"more butts", "post_description"=>"more of them\r\n"}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=u26yNz9hURr28xhfgrcpkOOBTRGa6%2BM88vQfPhe3lhpoyrJm3MAW9rlXmwtiiju0IgAMsWU6Qv667RBIrZYdZg%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=more+of+them%0D%0A&post%5Bpost_title%5D=more+butts&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=u26yNz9hURr28xhfgrcpkOOBTRGa6%2BM88vQfPhe3lhpoyrJm3MAW9rlXmwtiiju0IgAMsWU6Qv667RBIrZYdZg%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=more+of+them%0D%0A&post%5Bpost_title%5D=more+butts&post%5Butf8%5D=%E2%9C%93" for ::1 at 2016-03-14 15:02:58 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"u26yNz9hURr28xhfgrcpkOOBTRGa6+M88vQfPhe3lhpoyrJm3MAW9rlXmwtiiju0IgAMsWU6Qv667RBIrZYdZg==", "controller"=>"posts", "post_description"=>"more of them\r\n", "post_title"=>"more butts", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-03-14 15:03:06 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-03-14 15:03:12 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bkTv9zvwDeMBwqaWVUnvWQGLpQbGXyG2PG0vPGH329u94O+m2FFKD05mJcK1dP19wArkpjmOgHR0dCBK29ZQpw==", "title"=>"even more", "description"=>"more butts\r\n"}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=bkTv9zvwDeMBwqaWVUnvWQGLpQbGXyG2PG0vPGH329u94O%2Bm2FFKD05mJcK1dP19wArkpjmOgHR0dCBK29ZQpw%3D%3D&post%5Bcontroller%5D=posts&post%5Bdescription%5D=more+butts%0D%0A&post%5Btitle%5D=even+more&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=bkTv9zvwDeMBwqaWVUnvWQGLpQbGXyG2PG0vPGH329u94O%2Bm2FFKD05mJcK1dP19wArkpjmOgHR0dCBK29ZQpw%3D%3D&post%5Bcontroller%5D=posts&post%5Bdescription%5D=more+butts%0D%0A&post%5Btitle%5D=even+more&post%5Butf8%5D=%E2%9C%93" for ::1 at 2016-03-14 15:03:12 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"bkTv9zvwDeMBwqaWVUnvWQGLpQbGXyG2PG0vPGH329u94O+m2FFKD05mJcK1dP19wArkpjmOgHR0dCBK29ZQpw==", "controller"=>"posts", "description"=>"more butts\r\n", "title"=>"even more", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
