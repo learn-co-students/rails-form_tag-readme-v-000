@@ -1,0 +1,14 @@
+<h3>Post Form</h3>
+
+<%= form_tag posts_path do %>
+  <label for="title">Post Title:</label><br>
+  <%= text_field_tag :title %><br>
+
+  <label for="description">Post Description:</label><br>
+  <%= text_area_tag :description %><br>
+
+
+  <%= submit_tag "Submit Post" %>
+<% end %>
+
+<%= params.inspect %>
