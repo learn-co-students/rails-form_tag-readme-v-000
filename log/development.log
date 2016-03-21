@@ -112,3 +112,73 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-03-21 15:56:04 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 460ms (Views: 450.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-21 15:56:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-21 15:56:05 -0400
+
+
+Started GET "/posts/new" for ::1 at 2016-03-21 15:58:09 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-21 15:58:09 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-21 15:58:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-21 15:58:09 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-21 15:58:09 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-21 15:58:09 -0400
+
+
+Started GET "/posts/new" for ::1 at 2016-03-21 16:07:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 249ms (Views: 239.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-21 16:07:26 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-03-21 16:07:26 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-21 16:07:26 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-03-21 16:07:26 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-21 16:07:26 -0400
+
+
+Started POST "/posts" for ::1 at 2016-03-21 16:07:32 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post_title"=>"new", "post_description"=>"stuff", "authenticity_token"=>"UfEsNNJkd4bCXqLDqPOzgAg2eju2zzc8G1alXIVFKY41h2oueQYT8x55Oca8A3kYu4huj/hUuRG8jHpG8JV1CA=="}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=UfEsNNJkd4bCXqLDqPOzgAg2eju2zzc8G1alXIVFKY41h2oueQYT8x55Oca8A3kYu4huj%2FhUuRG8jHpG8JV1CA%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=stuff&post%5Bpost_title%5D=new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=UfEsNNJkd4bCXqLDqPOzgAg2eju2zzc8G1alXIVFKY41h2oueQYT8x55Oca8A3kYu4huj%2FhUuRG8jHpG8JV1CA%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=stuff&post%5Bpost_title%5D=new" for ::1 at 2016-03-21 16:07:32 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"UfEsNNJkd4bCXqLDqPOzgAg2eju2zzc8G1alXIVFKY41h2oueQYT8x55Oca8A3kYu4huj/hUuRG8jHpG8JV1CA==", "controller"=>"posts", "post_description"=>"stuff", "post_title"=>"new"}}
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
