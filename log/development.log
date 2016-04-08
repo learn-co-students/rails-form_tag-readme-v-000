@@ -112,3 +112,1018 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-08 15:55:49 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 20ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 15:55:56 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 270ms (Views: 268.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 16:06:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 188ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:06:57 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:06:57 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:06:57 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:06:57 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:06:57 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:07:07 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post_title"=>"Test Post", "post_description"=>"Heres the content", "authenticity_token"=>"max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5/LZ73/Uv5gmGmYTfBXKwCVJ3daw=="}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5%2FLZ73%2FUv5gmGmYTfBXKwCVJ3daw%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=Heres+the+content&post%5Bpost_title%5D=Test+Post
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5%2FLZ73%2FUv5gmGmYTfBXKwCVJ3daw%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=Heres+the+content&post%5Bpost_title%5D=Test+Post" for ::1 at 2016-04-08 16:07:07 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5/LZ73/Uv5gmGmYTfBXKwCVJ3daw==", "controller"=>"posts", "post_description"=>"Heres the content", "post_title"=>"Test Post"}}
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:07:59 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post_title"=>"Test Post", "post_description"=>"Heres the content", "authenticity_token"=>"max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5/LZ73/Uv5gmGmYTfBXKwCVJ3daw=="}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5%2FLZ73%2FUv5gmGmYTfBXKwCVJ3daw%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=Heres+the+content&post%5Bpost_title%5D=Test+Post
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5%2FLZ73%2FUv5gmGmYTfBXKwCVJ3daw%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=Heres+the+content&post%5Bpost_title%5D=Test+Post" for ::1 at 2016-04-08 16:07:59 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5/LZ73/Uv5gmGmYTfBXKwCVJ3daw==", "controller"=>"posts", "post_description"=>"Heres the content", "post_title"=>"Test Post"}}
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:08:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post_title"=>"Test Post", "post_description"=>"Heres the content", "authenticity_token"=>"max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5/LZ73/Uv5gmGmYTfBXKwCVJ3daw=="}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5%2FLZ73%2FUv5gmGmYTfBXKwCVJ3daw%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=Heres+the+content&post%5Bpost_title%5D=Test+Post
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5%2FLZ73%2FUv5gmGmYTfBXKwCVJ3daw%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=Heres+the+content&post%5Bpost_title%5D=Test+Post" for ::1 at 2016-04-08 16:08:58 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"max5gsK6j6JPg4rrNLdfwrU2GlCQNpYiK21msRgPiawsKkTGU2vgakDWnN5/LZ73/Uv5gmGmYTfBXKwCVJ3daw==", "controller"=>"posts", "post_description"=>"Heres the content", "post_title"=>"Test Post"}}
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 16:09:00 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:09:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:09:00 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:09:00 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:09:00 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:09:00 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:09:04 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post_title"=>"Teset", "post_description"=>"astadsf", "authenticity_token"=>"+/wVIK38OF4pmEvr5E/4Y26Py4+XjdiwKYc8/0GkTU5OeihkPC1XlibNXd6v1TlWJvIoXWYdL6XDtvZMDTYZiQ=="}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=%2B%2FwVIK38OF4pmEvr5E%2F4Y26Py4%2BXjdiwKYc8%2F0GkTU5OeihkPC1XlibNXd6v1TlWJvIoXWYdL6XDtvZMDTYZiQ%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=astadsf&post%5Bpost_title%5D=Teset
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=%2B%2FwVIK38OF4pmEvr5E%2F4Y26Py4%2BXjdiwKYc8%2F0GkTU5OeihkPC1XlibNXd6v1TlWJvIoXWYdL6XDtvZMDTYZiQ%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=astadsf&post%5Bpost_title%5D=Teset" for ::1 at 2016-04-08 16:09:04 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"+/wVIK38OF4pmEvr5E/4Y26Py4+XjdiwKYc8/0GkTU5OeihkPC1XlibNXd6v1TlWJvIoXWYdL6XDtvZMDTYZiQ==", "controller"=>"posts", "post_description"=>"astadsf", "post_title"=>"Teset"}}
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=%2B%2FwVIK38OF4pmEvr5E%2F4Y26Py4%2BXjdiwKYc8%2F0GkTU5OeihkPC1XlibNXd6v1TlWJvIoXWYdL6XDtvZMDTYZiQ%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=astadsf&post%5Bpost_title%5D=Teset" for ::1 at 2016-04-08 16:11:04 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"+/wVIK38OF4pmEvr5E/4Y26Py4+XjdiwKYc8/0GkTU5OeihkPC1XlibNXd6v1TlWJvIoXWYdL6XDtvZMDTYZiQ==", "controller"=>"posts", "post_description"=>"astadsf", "post_title"=>"Teset"}}
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:11:04 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:11:04 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:11:04 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:11:04 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:11:04 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:11:11 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"TEST3", "description"=>"TESTSS"}, "authenticity_token"=>"7/OMQu7GUhGCp7pj02caloEINu3cUR/+G16k+77e8F9adbEGfxc92Y3yrFaY/dujyXXVPy3B6Ovxb25I8kykmA=="}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=7%2FOMQu7GUhGCp7pj02caloEINu3cUR%2F%2BG16k%2B77e8F9adbEGfxc92Y3yrFaY%2FdujyXXVPy3B6Ovxb25I8kykmA%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost%5D%5Bdescription%5D=TESTSS&post%5Bpost%5D%5Btitle%5D=TEST3
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=7%2FOMQu7GUhGCp7pj02caloEINu3cUR%2F%2BG16k%2B77e8F9adbEGfxc92Y3yrFaY%2FdujyXXVPy3B6Ovxb25I8kykmA%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost%5D%5Bdescription%5D=TESTSS&post%5Bpost%5D%5Btitle%5D=TEST3" for ::1 at 2016-04-08 16:11:11 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"7/OMQu7GUhGCp7pj02caloEINu3cUR/+G16k+77e8F9adbEGfxc92Y3yrFaY/dujyXXVPy3B6Ovxb25I8kykmA==", "controller"=>"posts", "post"=>{"description"=>"TESTSS", "title"=>"TEST3"}}}
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=7%2FOMQu7GUhGCp7pj02caloEINu3cUR%2F%2BG16k%2B77e8F9adbEGfxc92Y3yrFaY%2FdujyXXVPy3B6Ovxb25I8kykmA%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost%5D%5Bdescription%5D=TESTSS&post%5Bpost%5D%5Btitle%5D=TEST3" for ::1 at 2016-04-08 16:13:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"7/OMQu7GUhGCp7pj02caloEINu3cUR/+G16k+77e8F9adbEGfxc92Y3yrFaY/dujyXXVPy3B6Ovxb25I8kykmA==", "controller"=>"posts", "post"=>{"description"=>"TESTSS", "title"=>"TEST3"}}}
+  Rendered posts/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 187ms (Views: 178.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:13:06 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:13:06 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:13:06 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:13:06 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:13:06 -0400
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 16:13:09 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:13:09 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:13:09 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:13:09 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:13:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:13:09 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:13:13 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"TEST", "description"=>"asdfasdf"}, "authenticity_token"=>"vk77q3gdJ7mHASIDC5wO7oYayV7+hYNJiYpeUfxtgBYLyMbv6cxIcYhUNDZABs/bzmcqjA8VdFxju5TisP/U0Q=="}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=vk77q3gdJ7mHASIDC5wO7oYayV7%2BhYNJiYpeUfxtgBYLyMbv6cxIcYhUNDZABs%2FbzmcqjA8VdFxju5TisP%2FU0Q%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost%5D%5Bdescription%5D=asdfasdf&post%5Bpost%5D%5Btitle%5D=TEST
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=vk77q3gdJ7mHASIDC5wO7oYayV7%2BhYNJiYpeUfxtgBYLyMbv6cxIcYhUNDZABs%2FbzmcqjA8VdFxju5TisP%2FU0Q%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost%5D%5Bdescription%5D=asdfasdf&post%5Bpost%5D%5Btitle%5D=TEST" for ::1 at 2016-04-08 16:13:13 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"vk77q3gdJ7mHASIDC5wO7oYayV7+hYNJiYpeUfxtgBYLyMbv6cxIcYhUNDZABs/bzmcqjA8VdFxju5TisP/U0Q==", "controller"=>"posts", "post"=>{"description"=>"asdfasdf", "title"=>"TEST"}}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 16:15:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 182ms (Views: 174.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:15:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"teste", "description"=>"testsetsetse"}, "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g=="}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:15:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"teste", "description"=>"testsetsetse"}, "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g=="}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:15:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"teste", "description"=>"testsetsetse"}, "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g=="}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:15:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"teste", "description"=>"testsetsetse"}, "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g=="}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:15:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"teste", "description"=>"testsetsetse"}, "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g=="}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:15:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"teste", "description"=>"testsetsetse"}, "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g=="}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:19:43 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"teste", "description"=>"testsetsetse"}, "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g=="}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:20:02 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:20:02 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:20:02 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:20:02 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:20:02 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:20:02 -0400
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:20:26 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:20:26 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:20:26 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:20:26 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:20:26 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:20:26 -0400
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:20:41 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `post_title' for nil:NilClass):
+    1: <%= @post.post_title %>
+  app/views/posts/index.html.erb:1:in `_app_views_posts_index_html_erb___2048036759821239752_70098706830060'
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.9ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.7ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (98.3ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:21:04 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `post' for nil:NilClass):
+    1: <%= @post.post[title] %>
+  app/views/posts/index.html.erb:1:in `_app_views_posts_index_html_erb___2048036759821239752_70098724736120'
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (87.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:21:18 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:21:19 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:21:19 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:21:19 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:21:19 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:21:19 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:24:37 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"teste", "description"=>"testsetsetse"}, "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g=="}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=YLaOzoxRrFEk5lIG%2FUR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost%5D%5Bdescription%5D=testsetsetse&post%5Bpost%5D%5Btitle%5D=teste
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=YLaOzoxRrFEk5lIG%2FUR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost%5D%5Bdescription%5D=testsetsetse&post%5Bpost%5D%5Btitle%5D=teste" for ::1 at 2016-04-08 16:24:37 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"YLaOzoxRrFEk5lIG/UR1Kzzn1Z2QgUQnCU0qRwrZFxXVMLOKHYDDmSuzRDO23rQedJo2T2ERszLjfOD0RktD0g==", "controller"=>"posts", "post"=>{"description"=>"testsetsetse", "title"=>"teste"}}}
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 16:30:54 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:30:54 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:30:54 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:30:54 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:30:54 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:30:54 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:30:55 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yp4QRdHiw5aqiW8j14Vo42QkTxgqHpV4ee27i0SLU8/XGC0BQDOsXqXceRacH6nWLFmsytuOYm2T3HE4CBkHCA==", "title"=>"", "description"=>"", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=Yp4QRdHiw5aqiW8j14Vo42QkTxgqHpV4ee27i0SLU8%2FXGC0BQDOsXqXceRacH6nWLFmsytuOYm2T3HE4CBkHCA%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=&post%5Btitle%5D=&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=Yp4QRdHiw5aqiW8j14Vo42QkTxgqHpV4ee27i0SLU8%2FXGC0BQDOsXqXceRacH6nWLFmsytuOYm2T3HE4CBkHCA%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=&post%5Btitle%5D=&post%5Butf8%5D=%E2%9C%93" for ::1 at 2016-04-08 16:30:55 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"Yp4QRdHiw5aqiW8j14Vo42QkTxgqHpV4ee27i0SLU8/XGC0BQDOsXqXceRacH6nWLFmsytuOYm2T3HE4CBkHCA==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"", "title"=>"", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:32:58 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"saf", "description"=>"", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:33:03 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:33:03 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:33:03 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:33:03 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:33:03 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:33:03 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:33:18 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:33:18 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:33:18 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:33:18 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:33:18 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:33:18 -0400
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:33:32 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:33:32 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:33:32 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:33:32 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:33:32 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:33:32 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:33:48 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007f8240795030>):
+  app/controllers/posts_controller.rb:7:in `create'
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.0ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (94.1ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:35:03 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `paramss' for #<PostsController:0x007f823e347318>):
+  app/controllers/posts_controller.rb:6:in `create'
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.7ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.0ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (91.1ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:35:15 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:35:15 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q0qk+J+wBSdZgIdYhhbHO95J9jEV+Hi5ab9fzU2Ijs8ezJm8DmFq71bVkW3NjAYOljQV4+Roj6yDjpV+ARraCA==", "title"=>"safasdf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:35:23 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:35:23 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:35:23 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:35:23 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:35:23 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:35:23 -0400
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:35:30 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <%= @post.title %>
+    2: 
+    3: test
+  app/views/posts/index.html.erb:1:in `_app_views_posts_index_html_erb___2048036759821239752_70098724421560'
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.0ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.0ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (86.5ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:35:50 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007f823e366358>:0x007f823c63ce80>):
+    1: <%= @post[title] %>
+    2: 
+    3: test
+  app/views/posts/index.html.erb:1:in `_app_views_posts_index_html_erb___2048036759821239752_70098699243500'
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.6ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (86.2ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:35:56 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `post' for nil:NilClass):
+    1: <%= @post.post[title] %>
+    2: 
+    3: test
+  app/views/posts/index.html.erb:1:in `_app_views_posts_index_html_erb___2048036759821239752_70098724266660'
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.1ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.7ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (89.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 16:43:12 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:43:15 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM%2BRu%2Bps9uNCZsus84gEyEfirDXaSg%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=asdffsd&post%5Btitle%5D=asdf&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM%2BRu%2Bps9uNCZsus84gEyEfirDXaSg%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=asdffsd&post%5Btitle%5D=asdf&post%5Butf8%5D=%E2%9C%93" for ::1 at 2016-04-08 16:43:15 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdffsd", "title"=>"asdf", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:43:35 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `redirect' for #<PostsController:0x007f8243308d98>):
+  app/controllers/posts_controller.rb:7:in `create'
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.1ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (93.4ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:43:49 -0400
+
+SyntaxError (/Users/jamesgorman/Development/code/rails-form_tag-readme-v-000/app/controllers/posts_controller.rb:7: syntax error, unexpected '(', expecting keyword_end
+		redirect_to 'new_post_path'(post: @post)
+		                            ^):
+  app/controllers/posts_controller.rb:7: syntax error, unexpected '(', expecting keyword_end
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (46.8ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (93.9ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:02 -0400
+
+SyntaxError (/Users/jamesgorman/Development/code/rails-form_tag-readme-v-000/app/controllers/posts_controller.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end):
+  app/controllers/posts_controller.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jamesgorman/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (85.8ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:10 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:10 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:10 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:10 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:10 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:31 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:31 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:31 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:44:32 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:36 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:36 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:36 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-04-08 16:44:40 -0400
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:44:40 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:44:40 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:44:40 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:44:40 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:44:40 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:45 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:45 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:45 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:45 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:45 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:45 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VXfwre4BW76n3Cr62iErWb6eobQ6PASd7vmNUeCnjo3g8c3pf9A0dqiJPM+Ru+ps9uNCZsus84gEyEfirDXaSg==", "title"=>"asdf", "description"=>"asdffsd", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 16:44:56 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:44:56 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:44:56 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:44:56 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:44:56 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:44:56 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:59 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EjATlERhqfJAc76rrE3liZdUJr7KRrrrBKB1AbxAmcSnti7Q1bDGOk8mqJ7n1yS83ynFbDvWTf7ukb+y8NLNAw==", "title"=>"asv", "description"=>"adf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:59 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EjATlERhqfJAc76rrE3liZdUJr7KRrrrBKB1AbxAmcSnti7Q1bDGOk8mqJ7n1yS83ynFbDvWTf7ukb+y8NLNAw==", "title"=>"asv", "description"=>"adf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:59 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EjATlERhqfJAc76rrE3liZdUJr7KRrrrBKB1AbxAmcSnti7Q1bDGOk8mqJ7n1yS83ynFbDvWTf7ukb+y8NLNAw==", "title"=>"asv", "description"=>"adf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:44:59 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EjATlERhqfJAc76rrE3liZdUJr7KRrrrBKB1AbxAmcSnti7Q1bDGOk8mqJ7n1yS83ynFbDvWTf7ukb+y8NLNAw==", "title"=>"asv", "description"=>"adf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:45:00 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EjATlERhqfJAc76rrE3liZdUJr7KRrrrBKB1AbxAmcSnti7Q1bDGOk8mqJ7n1yS83ynFbDvWTf7ukb+y8NLNAw==", "title"=>"asv", "description"=>"adf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:45:00 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EjATlERhqfJAc76rrE3liZdUJr7KRrrrBKB1AbxAmcSnti7Q1bDGOk8mqJ7n1yS83ynFbDvWTf7ukb+y8NLNAw==", "title"=>"asv", "description"=>"adf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000new_post_path(post: @post)
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-04-08 16:45:14 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-08 16:45:14 -0400
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-04-08 16:45:14 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-08 16:45:14 -0400
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-04-08 16:45:14 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-08 16:45:14 -0400
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:45:17 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vJ+kIBl7+IoM+5Thfb6JHDbnNgVCMA+KDoVnsYgSoc8JGZlkiKqXQgOugtQ2JEgpfprV17Og+J/ktK0CxID1CA==", "title"=>"asdf", "description"=>"asf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=vJ%2BkIBl7%2BIoM%2B5Thfb6JHDbnNgVCMA%2BKDoVnsYgSoc8JGZlkiKqXQgOugtQ2JEgpfprV17Og%2BJ%2FktK0CxID1CA%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=asf&post%5Btitle%5D=asdf&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=vJ%2BkIBl7%2BIoM%2B5Thfb6JHDbnNgVCMA%2BKDoVnsYgSoc8JGZlkiKqXQgOugtQ2JEgpfprV17Og%2BJ%2FktK0CxID1CA%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=asf&post%5Btitle%5D=asdf&post%5Butf8%5D=%E2%9C%93" for ::1 at 2016-04-08 16:45:17 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"vJ+kIBl7+IoM+5Thfb6JHDbnNgVCMA+KDoVnsYgSoc8JGZlkiKqXQgOugtQ2JEgpfprV17Og+J/ktK0CxID1CA==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asf", "title"=>"asdf", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2016-04-08 16:47:24 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8yZWbNLppSLtBHcJhXuBi0IJQUQpalC97Hd2buhPy3JGoGsoQzjK6uJRYTzO4UC+CnSiltj6p6gGRrzdpN2ftQ==", "title"=>"asf", "description"=>"asdf", "commit"=>"Submit Post"}
+Redirected to http://localhost:3000/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=8yZWbNLppSLtBHcJhXuBi0IJQUQpalC97Hd2buhPy3JGoGsoQzjK6uJRYTzO4UC%2BCnSiltj6p6gGRrzdpN2ftQ%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=asdf&post%5Btitle%5D=asf&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=8yZWbNLppSLtBHcJhXuBi0IJQUQpalC97Hd2buhPy3JGoGsoQzjK6uJRYTzO4UC%2BCnSiltj6p6gGRrzdpN2ftQ%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=asdf&post%5Btitle%5D=asf&post%5Butf8%5D=%E2%9C%93" for ::1 at 2016-04-08 16:47:24 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"8yZWbNLppSLtBHcJhXuBi0IJQUQpalC97Hd2buhPy3JGoGsoQzjK6uJRYTzO4UC+CnSiltj6p6gGRrzdpN2ftQ==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"asf", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
