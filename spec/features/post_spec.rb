@@ -16,6 +16,7 @@ describe 'new post' do
 
     fill_in 'title', with: "My post title"
     fill_in 'description', with: "My post description"
+    
 
     click_on "Submit Post"
 
