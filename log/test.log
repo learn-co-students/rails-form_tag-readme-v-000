@@ -376,3 +376,255 @@ Processing by PostsController#new as HTML
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.7ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.6ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:21:58 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 285ms (Views: 277.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:21:59 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:21:59 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.7ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:26:56 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 201ms (Views: 191.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:26:56 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:26:56 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.9ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:27:19 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 186ms (Views: 178.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:27:19 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:27:19 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.8ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:16 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 209ms (Views: 198.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:16 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:16 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2016-07-11 18:28:16 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post_title"=>"My post title", "post_description"=>"My post description", "authenticity_token"=>"S9kKpmKTMhXI8bLT5Tg4+dmqa+Xgx1s8ZVqAZAXk9jOok3dkCwpoqMFloPQ/2zBcuTO3cNtgG/30sd2Uw8oi8w=="}
+Redirected to http://www.example.com/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=S9kKpmKTMhXI8bLT5Tg4%2Bdmqa%2BXgx1s8ZVqAZAXk9jOok3dkCwpoqMFloPQ%2F2zBcuTO3cNtgG%2F30sd2Uw8oi8w%3D%3D&post%5Bcontroller%5D=posts&post%5Bpost_description%5D=My+post+description&post%5Bpost_title%5D=My+post+title
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/posts/new?post[action]=create&post[authenticity_token]=S9kKpmKTMhXI8bLT5Tg4%2Bdmqa%2BXgx1s8ZVqAZAXk9jOok3dkCwpoqMFloPQ%2F2zBcuTO3cNtgG%2F30sd2Uw8oi8w%3D%3D&post[controller]=posts&post[post_description]=My+post+description&post[post_title]=My+post+title" for 127.0.0.1 at 2016-07-11 18:28:16 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"S9kKpmKTMhXI8bLT5Tg4+dmqa+Xgx1s8ZVqAZAXk9jOok3dkCwpoqMFloPQ/2zBcuTO3cNtgG/30sd2Uw8oi8w==", "controller"=>"posts", "post_description"=>"My post description", "post_title"=>"My post title"}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (2.4ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:28 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 171ms (Views: 160.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:28 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:28 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2016-07-11 18:28:28 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post_title"=>"My post title", "description"=>"My post description", "authenticity_token"=>"mW2iCpbXhxmiMW5vVVo+xtd54ipU/zuiox1SoqJCt/0ks6LDYHSfciAQxRNB33O/Cr0uVedsHJLfoahqzLPHDA=="}
+Redirected to http://www.example.com/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=mW2iCpbXhxmiMW5vVVo%2Bxtd54ipU%2Fzuiox1SoqJCt%2F0ks6LDYHSfciAQxRNB33O%2FCr0uVedsHJLfoahqzLPHDA%3D%3D&post%5Bcontroller%5D=posts&post%5Bdescription%5D=My+post+description&post%5Bpost_title%5D=My+post+title
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/posts/new?post[action]=create&post[authenticity_token]=mW2iCpbXhxmiMW5vVVo%2Bxtd54ipU%2Fzuiox1SoqJCt%2F0ks6LDYHSfciAQxRNB33O%2FCr0uVedsHJLfoahqzLPHDA%3D%3D&post[controller]=posts&post[description]=My+post+description&post[post_title]=My+post+title" for 127.0.0.1 at 2016-07-11 18:28:28 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"mW2iCpbXhxmiMW5vVVo+xtd54ipU/zuiox1SoqJCt/0ks6LDYHSfciAQxRNB33O/Cr0uVedsHJLfoahqzLPHDA==", "controller"=>"posts", "description"=>"My post description", "post_title"=>"My post title"}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.7ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:39 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 163ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:39 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:39 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2016-07-11 18:28:39 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"title"=>"My post title", "description"=>"My post description", "authenticity_token"=>"3u0vNEuxJTDSaRCxsTnhZHUkLiNR5HteIQDFtOjhboLlRQe00YXSK06DVonlxlx0HbsqmLcQ1eVg8xvGfAXL4Q=="}
+Redirected to http://www.example.com/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=3u0vNEuxJTDSaRCxsTnhZHUkLiNR5HteIQDFtOjhboLlRQe00YXSK06DVonlxlx0HbsqmLcQ1eVg8xvGfAXL4Q%3D%3D&post%5Bcontroller%5D=posts&post%5Bdescription%5D=My+post+description&post%5Btitle%5D=My+post+title
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+Started GET "/posts/new?post[action]=create&post[authenticity_token]=3u0vNEuxJTDSaRCxsTnhZHUkLiNR5HteIQDFtOjhboLlRQe00YXSK06DVonlxlx0HbsqmLcQ1eVg8xvGfAXL4Q%3D%3D&post[controller]=posts&post[description]=My+post+description&post[title]=My+post+title" for 127.0.0.1 at 2016-07-11 18:28:39 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"3u0vNEuxJTDSaRCxsTnhZHUkLiNR5HteIQDFtOjhboLlRQe00YXSK06DVonlxlx0HbsqmLcQ1eVg8xvGfAXL4Q==", "controller"=>"posts", "description"=>"My post description", "title"=>"My post title"}}
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.8ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:46 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 185ms (Views: 177.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:46 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2016-07-11 18:28:46 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2016-07-11 18:28:46 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"title"=>"My post title", "description"=>"My post description", "authenticity_token"=>"ONKSKnlyyvChJc1lR6qJEhA0rrKhZc8qlq1V1chHoBDny8uK2pXFfVyl/KtGJjP7E5PLdFxrxgeeUcJ8a/0nzA=="}
+Redirected to http://www.example.com/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=ONKSKnlyyvChJc1lR6qJEhA0rrKhZc8qlq1V1chHoBDny8uK2pXFfVyl%2FKtGJjP7E5PLdFxrxgeeUcJ8a%2F0nzA%3D%3D&post%5Bcontroller%5D=posts&post%5Bdescription%5D=My+post+description&post%5Btitle%5D=My+post+title
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+Started GET "/posts/new?post[action]=create&post[authenticity_token]=ONKSKnlyyvChJc1lR6qJEhA0rrKhZc8qlq1V1chHoBDny8uK2pXFfVyl%2FKtGJjP7E5PLdFxrxgeeUcJ8a%2F0nzA%3D%3D&post[controller]=posts&post[description]=My+post+description&post[title]=My+post+title" for 127.0.0.1 at 2016-07-11 18:28:46 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"ONKSKnlyyvChJc1lR6qJEhA0rrKhZc8qlq1V1chHoBDny8uK2pXFfVyl/KtGJjP7E5PLdFxrxgeeUcJ8a/0nzA==", "controller"=>"posts", "description"=>"My post description", "title"=>"My post title"}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
