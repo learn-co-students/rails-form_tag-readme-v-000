@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+# RESTful convention of new_post_path for the route helper name
 describe 'new post' do
   it 'ensures that the form route works with new action' do
     visit new_post_path
