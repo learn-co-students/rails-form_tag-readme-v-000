@@ -8,17 +8,21 @@ describe 'new post' do
 
   it 'has the form render with the new action' do
     visit new_post_path
-    expect(page).to have_content("Post Form")
+    expect(page).to have_content('Post Form')
   end
 
-  it 'shows a new form that submits content and redirects to new page and prints out params' do
+  it "shows a new form that submits content and redirects to the index page, which now contains the submitted post's title and description" do
     visit new_post_path
+    fill_in 'post_title', with: 'My post title'
+    fill_in 'post_description', with: 'My post description'
 
-    fill_in 'title', with: "My post title"
-    fill_in 'description', with: "My post description"
+    click_on 'Submit Post'
 
-    click_on "Submit Post"
-
-    expect(page).to have_content("My post title")
+    expect(page.current_path).to eq(posts_path)
+    expect(page).to have_content('My post title')
+    expect(page).to have_content('My post description')
   end
 end
+
+# overhaul of spec tests / general lesson flow
+# add RSpec expectation for post description
