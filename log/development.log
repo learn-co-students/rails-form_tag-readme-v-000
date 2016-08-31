@@ -112,3 +112,463 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 96.244.125.54 at 2016-08-30 23:45:20 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 41ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 96.244.125.54 at 2016-08-30 23:45:20 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 96.244.125.54 at 2016-08-30 23:45:24 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/students"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.3ms)
+
+
+Started GET "/" for 96.244.125.54 at 2016-08-30 23:45:33 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (0.2ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-30 23:45:34 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 600ms (Views: 599.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 96.244.125.54 at 2016-08-30 23:48:39 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/" for 96.244.125.54 at 2016-08-31 00:05:35 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 364ms (Views: 351.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:05:38 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts/new" for 96.244.125.54 at 2016-08-31 00:05:42 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 96.244.125.54 at 2016-08-31 00:05:48 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pTOdUGKNjP5ZLmvnRDZCWp5Iek5VXnnVCROUz/QZIRoiiOt8tUzRLH23o7wko9blvXhYgVMGGiO92Dt+y6b0RA==", "title"=>"Hi", "description"=>"Hi", "commit"=>"Submit Post"}
+Redirected to http://104.236.196.127:3044/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=pTOdUGKNjP5ZLmvnRDZCWp5Iek5VXnnVCROUz%2FQZIRoiiOt8tUzRLH23o7wko9blvXhYgVMGGiO92Dt%2By6b0RA%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=Hi&post%5Btitle%5D=Hi&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=pTOdUGKNjP5ZLmvnRDZCWp5Iek5VXnnVCROUz%2FQZIRoiiOt8tUzRLH23o7wko9blvXhYgVMGGiO92Dt%2By6b0RA%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=Hi&post%5Btitle%5D=Hi&post%5Butf8%5D=%E2%9C%93" for 96.244.125.54 at 2016-08-31 00:05:48 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"pTOdUGKNjP5ZLmvnRDZCWp5Iek5VXnnVCROUz/QZIRoiiOt8tUzRLH23o7wko9blvXhYgVMGGiO92Dt+y6b0RA==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"Hi", "title"=>"Hi", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:06:27 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 50ms (Views: 46.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:06:52 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 96.244.125.54 at 2016-08-31 00:06:52 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 96.244.125.54 at 2016-08-31 00:06:52 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 96.244.125.54 at 2016-08-31 00:06:52 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 96.244.125.54 at 2016-08-31 00:06:52 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 96.244.125.54 at 2016-08-31 00:06:52 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:06:55 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 96.244.125.54 at 2016-08-31 00:06:55 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 96.244.125.54 at 2016-08-31 00:06:55 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 96.244.125.54 at 2016-08-31 00:06:55 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 96.244.125.54 at 2016-08-31 00:06:55 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 96.244.125.54 at 2016-08-31 00:06:55 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts/create" for 96.244.125.54 at 2016-08-31 00:08:29 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/posts/create"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.8ms)
+
+
+Started GET "/posts/ne" for 96.244.125.54 at 2016-08-31 00:08:34 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/posts/ne"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.1ms)
+
+
+Started GET "/posts/new" for 96.244.125.54 at 2016-08-31 00:08:35 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 454ms (Views: 452.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 96.244.125.54 at 2016-08-31 00:08:45 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zuZQEmzQs7GyKSPvwlTzYYzZ4ibWDJOAInPZH1Vq8wFJXSY+uxHuY5aw67SiwWfer+nA6dBU8HaWuHauatUmXw==", "title"=>"hi", "description"=>"hi", "commit"=>"Submit Post"}
+Redirected to http://104.236.196.127:3044/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=zuZQEmzQs7GyKSPvwlTzYYzZ4ibWDJOAInPZH1Vq8wFJXSY%2BuxHuY5aw67SiwWfer%2BnA6dBU8HaWuHauatUmXw%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=hi&post%5Btitle%5D=hi&post%5Butf8%5D=%E2%9C%93
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Baction%5D=create&post%5Bauthenticity_token%5D=zuZQEmzQs7GyKSPvwlTzYYzZ4ibWDJOAInPZH1Vq8wFJXSY%2BuxHuY5aw67SiwWfer%2BnA6dBU8HaWuHauatUmXw%3D%3D&post%5Bcommit%5D=Submit+Post&post%5Bcontroller%5D=posts&post%5Bdescription%5D=hi&post%5Btitle%5D=hi&post%5Butf8%5D=%E2%9C%93" for 96.244.125.54 at 2016-08-31 00:08:45 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"zuZQEmzQs7GyKSPvwlTzYYzZ4ibWDJOAInPZH1Vq8wFJXSY+uxHuY5aw67SiwWfer+nA6dBU8HaWuHauatUmXw==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"hi", "title"=>"hi", "utf8"=>"✓"}}
+  Rendered posts/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:14:01 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 382ms (Views: 361.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:14:02 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:14:46 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 14428ms (Views: 459.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 96.244.125.54 at 2016-08-31 00:15:00 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 96.244.125.54 at 2016-08-31 00:15:00 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 96.244.125.54 at 2016-08-31 00:15:00 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 96.244.125.54 at 2016-08-31 00:15:00 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 96.244.125.54 at 2016-08-31 00:15:00 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts/new" for 96.244.125.54 at 2016-08-31 00:15:17 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 3179ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 96.244.125.54 at 2016-08-31 00:15:21 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 4786ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 96.244.125.54 at 2016-08-31 00:15:38 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sJhw+d+7zzvKuIuYBEcYZEjvQfn2x1P0w2+4EU9xmBA3IwbVCHqS6e4hQ8Nk0ozba99jNvCfMAJ3pBegcM5NTg==", "title"=>"hi", "description"=>"hi", "commit"=>"Submit Post"}
+DEPRECATION WARNING: Calling URL helpers with string keys controller, action is deprecated. Use symbols instead. (called from create at (pry):6)
+DEPRECATION WARNING: Calling URL helpers with string keys controller, action is deprecated. Use symbols instead. (called from create at (pry):9)
+  [1m[36mPost Load (1.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "hi"], ["description", "hi"], ["created_at", "2016-08-31 00:20:06.352641"], ["updated_at", "2016-08-31 00:20:06.352641"]]
+  [1m[35m (16.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "hi"], ["description", "hi"], ["created_at", "2016-08-31 00:20:19.478882"], ["updated_at", "2016-08-31 00:20:19.478882"]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://104.236.196.127:3044/posts/new?post=2
+Completed 302 Found in 314940ms (ActiveRecord: 27.6ms)
+
+
+Started GET "/posts/new?post=2" for 96.244.125.54 at 2016-08-31 00:20:53 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>"2"}
+  Rendered posts/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 55ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 96.244.125.54 at 2016-08-31 00:21:37 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HuzWql88wyfSiHVns/+DzItgjge8jM9PuRuSUQUnoCOZV6CGiP2e9fYRvTzTahdzqFCsyLrUrLkN0D3gOph1fQ==", "title"=>"ez", "description"=>"ez", "commit"=>"Submit Post"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ez"], ["description", "ez"], ["created_at", "2016-08-31 00:21:37.847781"], ["updated_at", "2016-08-31 00:21:37.847781"]]
+  [1m[35m (5.6ms)[0m  commit transaction
+Redirected to http://104.236.196.127:3044/posts/new?post=3
+Completed 302 Found in 50188ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/posts/new?post=3" for 96.244.125.54 at 2016-08-31 00:22:28 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>"3"}
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 96.244.125.54 at 2016-08-31 00:22:31 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:22:33 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/posts/new?post=3" for 96.244.125.54 at 2016-08-31 00:22:40 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>"3"}
+  Rendered posts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 96.244.125.54 at 2016-08-31 00:22:40 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 96.244.125.54 at 2016-08-31 00:22:40 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 96.244.125.54 at 2016-08-31 00:22:40 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 96.244.125.54 at 2016-08-31 00:22:40 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 96.244.125.54 at 2016-08-31 00:22:40 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/posts" for 96.244.125.54 at 2016-08-31 00:22:44 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qQI+M4WMukYr9gm3VoB9MtRNW04om6bLpCOF2i3ZkkEuuUgfUk3nlA9vwew2FemN9315gS7DxT0Q6CprEmZHHw==", "title"=>"ej", "description"=>"ej", "commit"=>"Submit Post"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ej"], ["description", "ej"], ["created_at", "2016-08-31 00:22:44.260524"], ["updated_at", "2016-08-31 00:22:44.260524"]]
+  [1m[35m (21.6ms)[0m  commit transaction
+Redirected to http://104.236.196.127:3044/posts/new?post=4
+Completed 302 Found in 26687ms (ActiveRecord: 22.3ms)
+
+
+Started GET "/posts/new?post=4" for 96.244.125.54 at 2016-08-31 00:23:10 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>"4"}
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 96.244.125.54 at 2016-08-31 00:23:16 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TrdJdBqqdu8R8Ls9vCHhJVol/tRNsjS+NkN8bsHc76/JDD9YzWsrPTVpc2bctHWaeRXcG0vqV0iCiNPf/mM68Q==", "title"=>"ni", "description"=>"nk", "commit"=>"Submit Post"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "ni"], ["description", "nk"], ["created_at", "2016-08-31 00:23:16.692859"], ["updated_at", "2016-08-31 00:23:16.692859"]]
+  [1m[36m (66.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://104.236.196.127:3044/posts
+Completed 302 Found in 2795ms (ActiveRecord: 69.1ms)
+
+
+Started GET "/posts" for 96.244.125.54 at 2016-08-31 00:23:19 +0000
+Cannot render console from 96.244.125.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.8ms)
