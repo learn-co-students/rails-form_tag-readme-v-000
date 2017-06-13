@@ -376,3 +376,420 @@ Processing by PostsController#new as HTML
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.3ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:41:17 -0400
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:42:07 -0400
+Processing by PostsController#new as HTML
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.7ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.4ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:43:14 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 800ms (Views: 788.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.1ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:43:30 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 275ms (Views: 263.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.2ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:44:45 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 200ms (Views: 191.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:44:45 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.7ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:45:24 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 185ms (Views: 177.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:45:25 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.9ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:50:19 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 192ms (Views: 182.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:50:19 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:50:19 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:54:08 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 190ms (Views: 182.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:54:08 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:54:08 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new?post[title]=My+post+title&post[description]=My+post+description" for 127.0.0.1 at 2017-06-12 23:54:08 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My post title", "description"=>"My post description"}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.8ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:54:34 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 195ms (Views: 185.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:54:34 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:54:34 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+Started GET "/posts/new?post[title]=My+post+title&post[description]=My+post+description" for 127.0.0.1 at 2017-06-12 23:54:34 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My post title", "description"=>"My post description"}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.6ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:56:03 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 192ms (Views: 182.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:56:03 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:56:03 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Started GET "/posts?post[title]=My+post+title&post[description]=My+post+description" for 127.0.0.1 at 2017-06-12 23:56:03 -0400
+Processing by PostsController#index as HTML
+  Parameters: {"post"=>{"title"=>"My post title", "description"=>"My post description"}}
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.6ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:59:27 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 187ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:59:27 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-12 23:59:27 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2017-06-12 23:59:27 -0400
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.5ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.1ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:00:32 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 204ms (Views: 192.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:00:32 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:00:32 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2017-06-13 00:00:33 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"My post title", "description"=>"My post description"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "My post title"], ["description", "My post description"], ["created_at", "2017-06-13 04:00:33.018398"], ["updated_at", "2017-06-13 04:00:33.018398"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/posts
+Completed 302 Found in 29ms (ActiveRecord: 0.9ms)
+Started GET "/posts" for 127.0.0.1 at 2017-06-13 00:00:33 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.5ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:06:53 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 206ms (Views: 197.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:06:53 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:06:53 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2017-06-13 00:06:53 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"title"=>"My post title", "description"=>"My post description"}, "authenticity_token"=>"FwKh7L0hNshH9trRN9MOrYssWU14iG5OVfwA7VB9Vv0loWbrrLNDghapgR/3lgxGwEDjkSdIoBOh/8E9glnm+A=="}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "My post title"], ["description", "My post description"], ["created_at", "2017-06-13 04:06:53.868592"], ["updated_at", "2017-06-13 04:06:53.868592"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/posts
+Completed 302 Found in 15ms (ActiveRecord: 0.8ms)
+Started GET "/posts" for 127.0.0.1 at 2017-06-13 00:06:53 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.8ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:08:47 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 207ms (Views: 198.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:08:47 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:08:47 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2017-06-13 00:08:47 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"title"=>"My post title", "description"=>"My post description"}, "authenticity_token"=>"A6JZiWVSBHK7KVDB0mSy5YIBQRkHFEe1E1v+3Mzq98S1mVp7MLz2E27a1i29/A3IeIsaAJRWTarn5/MR99V18g==", "commit"=>"Submit Post"}
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "My post title"], ["description", "My post description"], ["created_at", "2017-06-13 04:08:47.317588"], ["updated_at", "2017-06-13 04:08:47.317588"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/posts
+Completed 302 Found in 19ms (ActiveRecord: 1.0ms)
+Started GET "/posts" for 127.0.0.1 at 2017-06-13 00:08:47 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.8ms)[0m  DELETE FROM "posts";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM sqlite_sequence where name = 'posts';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:09:48 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 187ms (Views: 179.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:09:48 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/posts/new" for 127.0.0.1 at 2017-06-13 00:09:48 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started POST "/posts" for 127.0.0.1 at 2017-06-13 00:09:48 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "post"=>{"title"=>"My post title", "description"=>"My post description"}, "authenticity_token"=>"cS6nv9O3JDE1/ND/gvbCOXtsD8j5a1gTe3ZaNapv2GUZngi2gIHJmKhnLoc3iyp0Tw/UmMnc91Dv3RP28wpEFg==", "commit"=>"Submit Post"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "My post title"], ["description", "My post description"], ["created_at", "2017-06-13 04:09:48.267673"], ["updated_at", "2017-06-13 04:09:48.267673"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/posts
+Completed 302 Found in 16ms (ActiveRecord: 0.8ms)
+Started GET "/posts" for 127.0.0.1 at 2017-06-13 00:09:48 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
