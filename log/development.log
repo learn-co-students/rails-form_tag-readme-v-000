@@ -112,3 +112,38 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 100.33.61.98 at 2017-07-05 21:48:55 +0000
+Cannot render console from 100.33.61.98! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 635ms (Views: 622.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 100.33.61.98 at 2017-07-05 22:31:32 +0000
+Cannot render console from 100.33.61.98! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 494ms (Views: 483.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 100.33.61.98 at 2017-07-05 22:31:45 +0000
+Cannot render console from 100.33.61.98! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"Must", "description"=>"he real\r\n"}, "authenticity_token"=>"6PgUukSdYwOdO1wbDN2OvRxT1JSrXTOBYxfKaW/9ys3TjEDyjo9dV42XFrjZ/FNtxKHMQhBTKJahB/lKAyRAMA=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Must"], ["description", "he real\r\n"], ["created_at", "2017-07-05 22:31:45.984958"], ["updated_at", "2017-07-05 22:31:45.984958"]]
+  [1m[35m (3.1ms)[0m  commit transaction
+Redirected to http://159.203.91.215:30006/posts
+Completed 302 Found in 38ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/posts" for 100.33.61.98 at 2017-07-05 22:31:46 +0000
+Cannot render console from 100.33.61.98! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.6ms)
