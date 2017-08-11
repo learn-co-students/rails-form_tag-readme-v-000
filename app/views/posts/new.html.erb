@@ -14,9 +14,9 @@
 </form> -->
 
 <%= form_tag posts_path do %>
-  <label> Post title: </label> <br>
+  <%= label_tag 'title', 'Post Title:' %> <br>
   <%= text_field_tag :'post[title]' %> <br>
-  <label> Post description: </label> <br>
+  <%= label_tag 'description', 'Post Description:' %> <br>
   <%= text_area_tag :'post[description]' %> <br>
 
   <%= submit_tag "Submit Post" %>
