@@ -1726,3 +1726,92 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"title"=>"gfg", "description"=>"fgf"}}
   Rendered posts/new.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 498ms (Views: 439.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.109.94.115 at 2017-10-19 12:26:12 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 72ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=ghgh&post%5Bdescription%5D=hghg" for 81.109.94.115 at 2017-10-19 12:26:18 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"ghgh", "description"=>"hghg"}}
+  Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 424ms (Views: 423.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=ghgh&post%5Bdescription%5D=hghg" for 81.109.94.115 at 2017-10-19 12:28:30 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"ghgh", "description"=>"hghg"}}
+  Rendered posts/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 81.109.94.115 at 2017-10-19 12:28:34 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"gfg", "description"=>"tyty"}, "authenticity_token"=>"NSGHakOsd5+3HnRq19aompyrcn3DKz0scdNd27uiY+HuAM4qVinAQZmGf9s6S2AzjjQyu+0JxIsuLJ7I5W5yHw=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "gfg"], ["description", "tyty"], ["created_at", "2017-10-19 12:28:34.122630"], ["updated_at", "2017-10-19 12:28:34.122630"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+Redirected to http://46.101.237.232:30002/posts
+Completed 302 Found in 67ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/posts" for 81.109.94.115 at 2017-10-19 12:28:34 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 81.109.94.115 at 2017-10-19 12:44:17 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 72ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 81.109.94.115 at 2017-10-19 12:44:26 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"gfgfgf", "description"=>"tytygfgf"}, "authenticity_token"=>"NSGHakOsd5+3HnRq19aompyrcn3DKz0scdNd27uiY+HuAM4qVinAQZmGf9s6S2AzjjQyu+0JxIsuLJ7I5W5yHw=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "gfgfgf"], ["description", "tytygfgf"], ["created_at", "2017-10-19 12:44:26.210553"], ["updated_at", "2017-10-19 12:44:26.210553"]]
+  [1m[35m (3.9ms)[0m  commit transaction
+Redirected to http://46.101.237.232:30002/posts
+Completed 302 Found in 47ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/posts" for 81.109.94.115 at 2017-10-19 12:44:26 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 607ms (Views: 605.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts" for 81.109.94.115 at 2017-10-19 12:45:45 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"gfgfgfghg", "description"=>"tytygfgfghghg"}, "authenticity_token"=>"NSGHakOsd5+3HnRq19aompyrcn3DKz0scdNd27uiY+HuAM4qVinAQZmGf9s6S2AzjjQyu+0JxIsuLJ7I5W5yHw=="}
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "gfgfgfghg"], ["description", "tytygfgfghghg"], ["created_at", "2017-10-19 12:45:45.123152"], ["updated_at", "2017-10-19 12:45:45.123152"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+Redirected to http://46.101.237.232:30002/posts
+Completed 302 Found in 14ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/posts" for 81.109.94.115 at 2017-10-19 12:45:45 +0000
+Cannot render console from 81.109.94.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.3ms)
