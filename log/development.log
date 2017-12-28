@@ -574,3 +574,57 @@ ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticit
   Rendered /home/benb/.rvm/gems/ruby-2.3.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (3.7ms)
   Rendered /home/benb/.rvm/gems/ruby-2.3.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /home/benb/.rvm/gems/ruby-2.3.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (67.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2017-12-28 10:43:57 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 278ms (Views: 256.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2017-12-28 10:44:05 -0800
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JQYNMvvAMXZKoRWgM/4N3rm1/RBeG6QQy3aohIwvYpOK5vK/zbBLXGP0xJT4DGNwkJNV9slrWcULHypu+J1XAA==", "post"=>{"title"=>"Woot", "description"=>"Woot this is awesome"}, "commit"=>"Submit Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Woot"], ["description", "Woot this is awesome"], ["created_at", "2017-12-28 18:44:05.132167"], ["updated_at", "2017-12-28 18:44:05.132167"]]
+  [1m[35m (12.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 45ms (ActiveRecord: 16.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2017-12-28 10:44:05 -0800
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-28 11:25:12 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/benb/.rvm/gems/ruby-2.3.3/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
+Completed 200 OK in 31ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2017-12-28 11:32:18 -0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 252ms (Views: 251.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2017-12-28 11:32:20 -0800
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YTrG16V1ait6wTc7F9qFQzeecbYgyKW0CdaIA81GVrTO2jlakwUQAVOU5g/cKOvtHrjZULe4WGHJvwrpufRjJw==", "post"=>{"title"=>"", "description"=>""}, "commit"=>"Submit Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", ""], ["description", ""], ["created_at", "2017-12-28 19:32:20.498455"], ["updated_at", "2017-12-28 19:32:20.498455"]]
+  [1m[35m (4.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 28ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2017-12-28 11:32:20 -0800
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.2ms)
