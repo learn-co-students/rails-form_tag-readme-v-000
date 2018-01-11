@@ -1,0 +1,12 @@
+<h3>Post Form</h3>
+
+<%= form_tag posts_path do %>
+    <label for="post_title">Post title:</label><br>
+    <input type="text" id="post_title" name="post[title]"><br>
+
+    <label for="post_description">Post description:</label><br>
+    <textarea name="post[description]" id="post_description" ></textarea><br>
+
+    <%= submit_tag "Submit Post" %>
+
+<% end%>
