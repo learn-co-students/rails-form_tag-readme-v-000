@@ -1,0 +1,28 @@
+<h3>Post Form</h3>
+
+
+<%= form_tag posts_path do %>
+  <label for="post_title">Post title:</label></br>
+  <%= text_field_tag :'post[title]' %></br>
+  
+  <label for="post_description">Post Description:</label></br>
+  <%= text_area_tag :'post[description]' %></br>
+
+  <%= submit_tag "Submit Post" %>
+<% end %>
+
+<%= params.inspect %>
+
+<!--The above code replaces the following HTML -->
+
+<!--
+<form action="<%= posts_path %>" method="POST">
+  <label for="post_title">Post title:</label></br>
+  <input id="post_title" type="text" name="post[title]"></br>
+
+  <label for="">Post Description:</label></br>
+  <textarea id="post_description" name="post[description]" cols="30" rows="10"></textarea></br>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="submit" value="Submit Post">
+</form>
+-->
