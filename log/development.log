@@ -112,3 +112,327 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 98.109.50.129 at 2017-03-08 18:53:36 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 90ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 98.109.50.129 at 2017-03-08 18:53:42 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 676ms (Views: 674.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 98.109.50.129 at 2017-03-08 18:53:43 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 98.109.50.129 at 2017-03-08 18:53:43 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 98.109.50.129 at 2017-03-08 18:53:43 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 98.109.50.129 at 2017-03-08 18:53:43 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.109.50.129 at 2017-03-08 18:53:43 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts/new?post%5Btitle%5D=My+post&post%5Bdescription%5D=My+post+description" for 98.109.50.129 at 2017-03-08 18:54:09 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My post", "description"=>"My post description"}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Title+&post%5Bdescription%5D=My+description" for 98.109.50.129 at 2017-03-08 20:41:30 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/home/kevinladkins-39364/code/labs/rails-form_tag-readme-v-000/config/routes.rb:2: syntax error, unexpected ':', expecting ']'
+  resources :posts, only: [:index, :new :create]
+                                         ^):
+  config/routes.rb:2: syntax error, unexpected ':', expecting ']'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.8ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Title+&post%5Bdescription%5D=My+description" for 98.109.50.129 at 2017-03-08 20:41:57 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Title ", "description"=>"My description"}}
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 512ms (Views: 502.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Title+&post%5Bdescription%5D=My+description" for 98.109.50.129 at 2017-03-08 20:42:35 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Title ", "description"=>"My description"}}
+  Rendered posts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:42:52 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"My title", "description"=>"My description\r\n\r\n"}, "authenticity_token"=>"4zP+HjsfLbPrzWx9cfKv5OCh8/8zLIn0JK0RoICEaIvnU8PCD9mLwVloHhhHrWn0pPVhGsCOuhaH227izrJRMA=="}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/posts_controller.rb:10:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "My title"], ["description", "My description"], ["created_at", "2017-03-08 20:45:06.410004"], ["updated_at", "2017-03-08 20:45:06.410004"]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:47:45 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"My title", "description"=>"My description\r\n\r\n"}, "authenticity_token"=>"4zP+HjsfLbPrzWx9cfKv5OCh8/8zLIn0JK0RoICEaIvnU8PCD9mLwVloHhhHrWn0pPVhGsCOuhaH227izrJRMA=="}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/posts_controller.rb:10:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.4ms)
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:48:13 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"My title", "description"=>"My description\r\n\r\n"}, "authenticity_token"=>"4zP+HjsfLbPrzWx9cfKv5OCh8/8zLIn0JK0RoICEaIvnU8PCD9mLwVloHhhHrWn0pPVhGsCOuhaH227izrJRMA=="}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007f1654ca3c50>
+Did you mean?  try):
+  app/controllers/posts_controller.rb:10:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.1ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Title+&post%5Bdescription%5D=My+description" for 98.109.50.129 at 2017-03-08 20:48:38 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Title ", "description"=>"My description"}}
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 679ms (Views: 678.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:48:46 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"title", "description"=>"My title\r\n"}, "authenticity_token"=>"8E7qg2d8hiSA3W5XO2aOTtk0N711BAxvmbZYJoWyWfL0LtdfU7ogVjJ4HDINOUhenWClWIamP406wCdky4RgSQ=="}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/posts_controller.rb:10:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (62.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.3ms)
+
+
+Started GET "/posts/new" for 98.109.50.129 at 2017-03-08 20:51:41 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:51:52 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"Title ", "description"=>"Description\r\n"}, "authenticity_token"=>"QangI4EDkPNofnSIYBds9p5hfVFIaIAdJI/Utfkksk9Fyd3/tcU2gdrbBu1WSKrm2jXvtLvKs/+H+av3txKL9A=="}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/posts_controller.rb:10:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.3ms)
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:52:23 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"Title ", "description"=>"Description\r\n"}, "authenticity_token"=>"QangI4EDkPNofnSIYBds9p5hfVFIaIAdJI/Utfkksk9Fyd3/tcU2gdrbBu1WSKrm2jXvtLvKs/+H+av3txKL9A=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "posts" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Title "], ["created_at", "2017-03-08 20:52:23.695663"], ["updated_at", "2017-03-08 20:52:23.695663"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+Redirected to http://159.203.84.80:30019/posts
+Completed 302 Found in 21ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/posts" for 98.109.50.129 at 2017-03-08 20:52:23 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 98.109.50.129 at 2017-03-08 20:53:44 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:54:07 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vemT3YOZ5IllXjsRtkjaT/bhCcGBbNqAt170hqBXf6C5ia4Bt19C+9f7SXSAFxxfsrWbJHLO6WIUKIvE7mFGGw==", "post"=>{"title"=>"New post", "description"=>"New description"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "New post"], ["created_at", "2017-03-08 20:54:07.116102"], ["updated_at", "2017-03-08 20:54:07.116102"]]
+  [1m[35m (57.1ms)[0m  commit transaction
+Redirected to http://159.203.84.80:30019/posts
+Completed 302 Found in 64ms (ActiveRecord: 57.8ms)
+
+
+Started GET "/posts" for 98.109.50.129 at 2017-03-08 20:54:07 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:54:33 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vemT3YOZ5IllXjsRtkjaT/bhCcGBbNqAt170hqBXf6C5ia4Bt19C+9f7SXSAFxxfsrWbJHLO6WIUKIvE7mFGGw==", "post"=>{"title"=>"New post", "description"=>"New description"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "New post"], ["description", "New description"], ["created_at", "2017-03-08 20:54:33.587234"], ["updated_at", "2017-03-08 20:54:33.587234"]]
+  [1m[35m (4.2ms)[0m  commit transaction
+Redirected to http://159.203.84.80:30019/posts
+Completed 302 Found in 13ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/posts" for 98.109.50.129 at 2017-03-08 20:54:33 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 98.109.50.129 at 2017-03-08 20:55:59 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 20:56:14 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kK5B3ge6nGui5G8+l8IApzd82gGWTwAjEWIF4+O34EmUznwCM3w6GRBBHVuhnca3cyhI5GXtM8GyFHqhrYHZ8g==", "post"=>{"title"=>"And another new one", "description"=>"With more new content!"}}
+  [1m[35m (0.6ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "And another new one"], ["description", "With more new content!"], ["created_at", "2017-03-08 20:56:14.193570"], ["updated_at", "2017-03-08 20:56:14.193570"]]
+  [1m[35m (3.4ms)[0m  commit transaction
+Redirected to http://159.203.84.80:30019/posts
+Completed 302 Found in 10ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/posts" for 98.109.50.129 at 2017-03-08 20:56:14 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 98.109.50.129 at 2017-03-08 21:00:09 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (90.6ms)
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `textarea_tag' for #<#<Class:0x007f1657179138>:0x007f16571832c8>
+Did you mean?  text_area_tag):
+     5:   <%=text_field_tag :"post[title]"%></br>
+     6: 
+     7:   <label>Post description:</label></br>
+     8:   <%= textarea_tag :"post[description]"%></textarea>
+     9:   <br>
+    10:   <%=hidden_field_tag :authenticity_token, form_authenticity_token%>
+    11:   <%= submit_tag "Submit Post"%>
+  app/views/posts/new.html.erb:8:in `block in _app_views_posts_new_html_erb___1481155416269020888_69866963603560'
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___1481155416269020888_69866963603560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.3ms)
+
+
+Started GET "/posts/new" for 98.109.50.129 at 2017-03-08 21:00:40 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 98.109.50.129 at 2017-03-08 21:00:40 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/posts" for 98.109.50.129 at 2017-03-08 21:00:58 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Z8QaVVFQaVrDyeCNop9OHjzUuHRTJAwXEY17HA/Qlj5/y21YYPn19mqVecA1bsoPKfABCLuo9L/MEquPgl74w==", "post"=>{"title"=>"Latest Post", "description"=>"Built with form helpers"}, "commit"=>"Submit Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Latest Post"], ["description", "Built with form helpers"], ["created_at", "2017-03-08 21:00:58.649643"], ["updated_at", "2017-03-08 21:00:58.649643"]]
+  [1m[35m (13.2ms)[0m  commit transaction
+Redirected to http://159.203.84.80:30019/posts
+Completed 302 Found in 23ms (ActiveRecord: 15.1ms)
+
+
+Started GET "/posts" for 98.109.50.129 at 2017-03-08 21:00:58 +0000
+Cannot render console from 98.109.50.129! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.2ms)
