@@ -1,6 +1,11 @@
 class PostsController < ApplicationController
-  def index
-    @posts = Post.all
+
+  def new
   end
-  
+
+  def create
+    @post = params
+    redirect_to new_post_path(post: @post)
+  end
+
 end
