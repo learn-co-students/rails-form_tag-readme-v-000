@@ -112,3 +112,128 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 73.40.108.182 at 2017-07-25 23:04:36 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1321ms (Views: 1309.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 73.40.108.182 at 2017-07-25 23:04:41 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts/new?post%5Btitle%5D=title&post%5Bdescription%5D=description%0D%0A" for 73.40.108.182 at 2017-07-25 23:06:17 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"title", "description"=>"description\r\n"}}
+  Rendered posts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=title&post%5Bdescription%5D=description%0D%0A" for 73.40.108.182 at 2017-07-25 23:10:47 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"title", "description"=>"description\r\n"}}
+  Rendered posts/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 606ms (Views: 595.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=title&post%5Bdescription%5D=description%0D%0A" for 73.40.108.182 at 2017-07-25 23:10:51 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"title", "description"=>"description\r\n"}}
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 73.40.108.182 at 2017-07-25 23:11:13 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 73.40.108.182 at 2017-07-25 23:11:21 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"title", "description"=>"description\r\n"}, "authenticity_token"=>"o+l8l9q3J0AFxaqKtPhT5VYgqXRMKNao17O+LWwjbFSnkzKz2JuX6TyTL1HRc5xgS1ICtnfKysedv7mmlT47Cw=="}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "title"], ["description", "description\r\n"], ["created_at", "2017-07-25 23:11:21.697990"], ["updated_at", "2017-07-25 23:11:21.697990"]]
+  [1m[35m (5.3ms)[0m  commit transaction
+Redirected to http://159.203.89.115:30002/posts
+Completed 302 Found in 35ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/posts" for 73.40.108.182 at 2017-07-25 23:11:22 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts" for 73.40.108.182 at 2017-07-26 19:03:45 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 680ms (Views: 667.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 73.40.108.182 at 2017-07-26 19:03:50 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 73.40.108.182 at 2017-07-26 19:03:50 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 73.40.108.182 at 2017-07-26 19:03:50 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 73.40.108.182 at 2017-07-26 19:03:50 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 73.40.108.182 at 2017-07-26 19:03:50 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/posts/new" for 73.40.108.182 at 2017-07-26 19:04:57 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 73.40.108.182 at 2017-07-26 19:06:58 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 124ms (Views: 120.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 73.40.108.182 at 2017-07-26 19:07:11 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tZ9rCqpYIWvKFzz2IQL3tXJd5PfTWh0rxkIS9mjft2+x5SUuqHSRwvNBuS1EiTgwby9PNei4AUSMThV9kcLgMA==", "post"=>{"title"=>"tommy", "description"=>"tommy tommy"}}
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "tommy"], ["description", "tommy tommy"], ["created_at", "2017-07-26 19:07:11.447312"], ["updated_at", "2017-07-26 19:07:11.447312"]]
+  [1m[36m (51.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://159.203.89.115:30001/posts
+Completed 302 Found in 85ms (ActiveRecord: 53.9ms)
+
+
+Started GET "/posts" for 73.40.108.182 at 2017-07-26 19:07:11 +0000
+Cannot render console from 73.40.108.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.3ms)
