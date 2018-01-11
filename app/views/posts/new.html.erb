@@ -1,0 +1,26 @@
+<h3>Post Form</h3>
+<!-- <form action="<%= posts_path %>" method="POST"> -->
+<%= form_tag posts_path do %>
+  <label>Post title:</label><br>
+  <%= text_field_tag :'post[title]' %><br>
+<!-- Line above replaces the line below with use of form_tag
+  <input type="text" id="post_title" name="post[title]" value=""><br>
+-->
+
+  <label>Post description:</label><br>
+  <%= text_area_tag :'post[description]' %><br>
+<!-- Line above replaces the line below with use of form_tag
+  <textarea id="post_description" name="post[description]" value=""></textarea><br>
+-->
+
+<!-- Both methods shown below are for authenticity tokens, which are not needed, since it is embedded within form_tag
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+-->
+
+  <%= submit_tag "Submit Post" %>
+<!-- Line above replaces the line below with use of form_tag
+  <input type="submit" value="Submit Post">
+-->
+<% end %>
+<!-- </form> -->
