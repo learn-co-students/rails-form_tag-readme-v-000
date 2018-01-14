@@ -1,5 +1,5 @@
 <ul>
   <% @posts.each do |p| %>
-    <li><%= p.title %> - <%= p.description %></li>
+    <li><%= p.title.capitalize %> - <%= p.description.capitalize %></li>
   <% end %>
 </ul>
