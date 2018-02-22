@@ -112,3 +112,154 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 74.108.39.105 at 2018-02-22 19:13:15 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 17ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 74.108.39.105 at 2018-02-22 19:13:27 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 338ms (Views: 335.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts" for 74.108.39.105 at 2018-02-22 19:19:35 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 206ms (Views: 196.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for 74.108.39.105 at 2018-02-22 19:19:46 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 74.108.39.105 at 2018-02-22 19:31:20 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=New+Post&post%5Bdescription%5D=Post+new&authenticity_token=Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN%2BykyjhcVW%2FTETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg%3D%3D" for 74.108.39.105 at 2018-02-22 19:31:42 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"New Post", "description"=>"Post new"}, "authenticity_token"=>"Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN+ykyjhcVW/TETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=New+Post&post%5Bdescription%5D=Post+new&authenticity_token=Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN%2BykyjhcVW%2FTETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg%3D%3D" for 74.108.39.105 at 2018-02-22 19:40:08 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"New Post", "description"=>"Post new"}, "authenticity_token"=>"Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN+ykyjhcVW/TETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg=="}
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/rails-form_tag-readme-v-000/app/views/posts/new.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/ec2-user/environment/rails-form_tag-readme-v-000/app/views/posts/new.html.erb:16: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/new.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/new.html.erb:16: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.8ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=New+Post&post%5Bdescription%5D=Post+new&authenticity_token=Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN%2BykyjhcVW%2FTETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg%3D%3D" for 74.108.39.105 at 2018-02-22 19:40:24 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"New Post", "description"=>"Post new"}, "authenticity_token"=>"Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN+ykyjhcVW/TETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg=="}
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/rails-form_tag-readme-v-000/app/views/posts/new.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/ec2-user/environment/rails-form_tag-readme-v-000/app/views/posts/new.html.erb:16: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/new.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/new.html.erb:16: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=New+Post&post%5Bdescription%5D=Post+new&authenticity_token=Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN%2BykyjhcVW%2FTETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg%3D%3D" for 74.108.39.105 at 2018-02-22 19:44:06 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"New Post", "description"=>"Post new"}, "authenticity_token"=>"Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN+ykyjhcVW/TETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg=="}
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ec2-user/environment/rails-form_tag-readme-v-000/app/views/posts/new.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/ec2-user/environment/rails-form_tag-readme-v-000/app/views/posts/new.html.erb:16: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/new.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/new.html.erb:16: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.2ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=New+Post&post%5Bdescription%5D=Post+new&authenticity_token=Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN%2BykyjhcVW%2FTETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg%3D%3D" for 74.108.39.105 at 2018-02-22 19:44:20 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"New Post", "description"=>"Post new"}, "authenticity_token"=>"Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN+ykyjhcVW/TETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg=="}
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 194ms (Views: 193.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=New+Post&post%5Bdescription%5D=Post+new&authenticity_token=Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN%2BykyjhcVW%2FTETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg%3D%3D" for 74.108.39.105 at 2018-02-22 19:44:39 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"New Post", "description"=>"Post new"}, "authenticity_token"=>"Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN+ykyjhcVW/TETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg=="}
+  Rendered posts/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=New+Post&post%5Bdescription%5D=Post+new&authenticity_token=Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN%2BykyjhcVW%2FTETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg%3D%3D" for 74.108.39.105 at 2018-02-22 19:44:44 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"New Post", "description"=>"Post new"}, "authenticity_token"=>"Vbcl5U1y0idyc6oezBTwBiL56dqjacPv7C28Jy5obQN+ykyjhcVW/TETgiCwMxZhRcTYyTPS4Iw2MOL7O9QIfg=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=One+more+time&post%5Bdescription%5D=post+new%0D%0A&authenticity_token=YxoLu4YsPKm6jO2dSA2ANuXnDmlW2i4yMXzvPsOh2M1IZ2L9Tpu4c%2FnsxaM0KmZRgto%2FesZhDVHrYbHi1h29sA%3D%3D" for 74.108.39.105 at 2018-02-22 19:47:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"One more time", "description"=>"post new\r\n"}, "authenticity_token"=>"YxoLu4YsPKm6jO2dSA2ANuXnDmlW2i4yMXzvPsOh2M1IZ2L9Tpu4c/nsxaM0KmZRgto/esZhDVHrYbHi1h29sA=="}
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 207ms (Views: 199.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=&post%5Bdescription%5D=&authenticity_token=HQ6AXnErlZNfd%2Bp2pGsIeMIpoWK1qeqiBQW2DO%2BZdgE2c%2BkYuZwRSRwXwkjYTO4fpRSQcSUSycHfGOjQ%2BiUTfA%3D%3D" for 74.108.39.105 at 2018-02-22 19:47:21 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"", "description"=>""}, "authenticity_token"=>"HQ6AXnErlZNfd+p2pGsIeMIpoWK1qeqiBQW2DO+ZdgE2c+kYuZwRSRwXwkjYTO4fpRSQcSUSycHfGOjQ+iUTfA=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 74.108.39.105 at 2018-02-22 19:48:05 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.3.3/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 74.108.39.105 at 2018-02-22 19:48:23 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=post&post%5Bdescription%5D=new&authenticity_token=474%2FKcIVq9Pf23zoVCANZFBhyvzYN9D4WXYZJtmP2WzIw1ZvCqIvCZy7VNYoB%2BsDN1z770iM85uDa0f6zDO8EQ%3D%3D" for 74.108.39.105 at 2018-02-22 19:48:31 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"post", "description"=>"new"}, "authenticity_token"=>"474/KcIVq9Pf23zoVCANZFBhyvzYN9D4WXYZJtmP2WzIw1ZvCqIvCZy7VNYoB+sDN1z770iM85uDa0f6zDO8EQ=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
