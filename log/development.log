@@ -112,3 +112,155 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.7.73.146 at 2018-03-09 17:12:53 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 18ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 104.7.73.146 at 2018-03-09 17:16:19 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 435ms (Views: 432.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 104.7.73.146 at 2018-03-09 17:16:20 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 104.7.73.146 at 2018-03-09 17:16:20 +0000
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 104.7.73.146 at 2018-03-09 17:16:20 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 104.7.73.146 at 2018-03-09 17:16:20 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 104.7.73.146 at 2018-03-09 17:16:20 +0000
+
+
+Started GET "/posts/new" for 104.7.73.146 at 2018-03-09 17:18:00 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Test&post%5Bdescription%5D=Testing+the+form" for 104.7.73.146 at 2018-03-09 17:18:54 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Test", "description"=>"Testing the form"}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/" for 104.7.73.146 at 2018-03-09 17:19:06 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 39ms (Views: 35.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/posts/new" for 104.7.73.146 at 2018-03-09 17:20:07 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 104.7.73.146 at 2018-03-09 17:21:56 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Kristy&post%5Bdescription%5D=Kristy+Peterson" for 104.7.73.146 at 2018-03-09 17:22:10 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Kristy", "description"=>"Kristy Peterson"}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Kristy&post%5Bdescription%5D=Kristy+Peterson" for 104.7.73.146 at 2018-03-09 17:27:16 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Kristy", "description"=>"Kristy Peterson"}}
+  Rendered posts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 272ms (Views: 262.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 104.7.73.146 at 2018-03-09 17:27:22 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Jane&post%5Bdescription%5D=Jane+Doe" for 104.7.73.146 at 2018-03-09 17:27:32 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Jane", "description"=>"Jane Doe"}}
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Jane&post%5Bdescription%5D=Jane+Doe" for 104.7.73.146 at 2018-03-09 17:31:13 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Jane", "description"=>"Jane Doe"}}
+  Rendered posts/new.html.erb within layouts/application (36.9ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `formauthenticity_token' for #<#<Class:0x000000023ec798>:0x007f38aa0b9ef8>
+Did you mean?  form_authenticity_token):
+     7:   <label>Post description:</label><br>
+     8:   <textarea id="post_description" name="post[description]"></textarea><br>
+     9: 
+    10:   <input type="hidden" name="authenticity_token" value="<%=formauthenticity_token %>">
+    11: 
+    12:   <input type="submit" value="Submit Post">
+    13:   <form action="<%=posts_path %>" method="POST">
+  app/views/posts/new.html.erb:10:in `_app_views_posts_new_html_erb___4212020375124624220_69940673889800'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.4ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Jane&post%5Bdescription%5D=Jane+Doe" for 104.7.73.146 at 2018-03-09 17:31:37 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Jane", "description"=>"Jane Doe"}}
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=Bob&post%5Bdescription%5D=Jones&authenticity_token=1UzXX%2FKWMkiSvK2O32xhm2A8NZGKgBosVvXzXvnsI91QEEsLqJG1Jz94rvWbkDNyIS8%2FHf3YZgZd4cFv%2BXsaXw%3D%3D" for 104.7.73.146 at 2018-03-09 17:31:46 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"Bob", "description"=>"Jones"}, "authenticity_token"=>"1UzXX/KWMkiSvK2O32xhm2A8NZGKgBosVvXzXvnsI91QEEsLqJG1Jz94rvWbkDNyIS8/Hf3YZgZd4cFv+XsaXw=="}
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 104.7.73.146 at 2018-03-09 17:37:14 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 275ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 104.7.73.146 at 2018-03-09 17:37:32 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 104.7.73.146 at 2018-03-09 17:38:41 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 104.7.73.146 at 2018-03-09 17:40:24 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
