@@ -1,0 +1,37 @@
+<!-- <h1>Post Form</h1>
+<form class="" action="<%= posts_path %>" method="post"><br>
+  <label for="">Post title</label><br>
+  <input type="text" name="post[title]" id="post_title"><br>
+  <label for="">Post Description</label><br>
+  <textarea type="text" name="post[description]" id="post_description"></textarea><br>
+  <br>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="submit" value="Submit Post">
+</form>
+<%= params.inspect %> -->
+
+<!-- refactoring -->
+
+<!-- <h1>Post Form</h1>
+<%= form_tag posts_path do %>
+  <label for="">Post title</label><br>
+  <input type="text" name="post[title]" id="post_title"><br>
+  <label for="">Post Description</label><br>
+  <textarea type="text" name="post[description]" id="post_description"></textarea><br>
+  <br>
+  <input type="submit" value="Submit Post">
+<%end%>
+<%= params.inspect %> -->
+
+<!-- refactoring -->
+
+<h1>Post Form</h1>
+<%= form_tag posts_path do %>
+  <label for="">Post title</label><br>
+   <%= text_field_tag :'post[title]' %><br>
+
+  <label for="">Post Description</label><br>
+  <%= text_area_tag :'post[description]' %><br>
+  <br>
+  <%= submit_tag value="Submit Post" %>
+<%end%>
