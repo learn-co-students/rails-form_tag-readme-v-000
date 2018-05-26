@@ -1,5 +1,6 @@
 <h3>Post Form</h3>
 
+<h4>HTML "Ugly" Form</h4>
 <form action="<%= posts_path %>" method="POST">
   <label>Post title:</label><br>
   <input type="text" id="post_title" name="post[title]"><br>
@@ -11,6 +12,21 @@
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <input type="submit" value="Submit Post">
 </form>
+
+<h4>Refactor 1 using ActionView gem</h4>
+<%= form_tag posts_path do %>
+  <label>Post title:</label><br>
+  <input type="text" id="post_title" name="post[title]"><br>
+
+  <label>Post description:</label><br>
+  <textarea id="post_description" name="post[description]"></textarea><br>
+
+  <!-- NOTE : Replace the below with the second below but both become obsolete using the "form tag" as it automatically generates it -->
+  <!-- <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"> -->
+  <!-- <%= hidden_field_tag :authenticity_token, form_authenticity_token %> -->
+
+  <input type="submit" value="Submit Post">
+<% end %>
 
 
 <!-- NOTE : Just checking the params sans form action -->
