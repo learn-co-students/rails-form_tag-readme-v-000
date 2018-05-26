@@ -1,1 +1,17 @@
 <h3>Post Form</h3>
+
+<form action="<%= posts_path %>" method="POST">
+  <label>Post title:</label><br>
+  <input type="text" id="post_title" name="post[title]"><br>
+
+  <label>Post description:</label><br>
+  <textarea id="post_description" name="post[description]"></textarea><br>
+
+  <!-- NOTE : Important authenticity check || Rails CSRF (Cross-Site Request Forgery) -->
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="submit" value="Submit Post">
+</form>
+
+
+<!-- NOTE : Just checking the params sans form action -->
+<%= params.inspect %>
