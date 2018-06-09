@@ -112,3 +112,61 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-06-09 10:38:09 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/sfeebs/.rvm/gems/ruby-2.5.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (18.8ms)
+Completed 200 OK in 135ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-06-09 10:59:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/sfeebs/.rvm/gems/ruby-2.5.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 107ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2018-06-09 10:59:24 -0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 616ms (Views: 615.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-06-09 10:59:24 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2018-06-09 10:59:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-06-09 10:59:24 -0700
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for ::1 at 2018-06-09 10:59:24 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-06-09 10:59:24 -0700
+
+
+Started POST "/posts" for ::1 at 2018-06-09 10:59:48 -0700
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"sup", "description"=>"test"}, "authenticity_token"=>"yscPjHrQJko8S/r4Qq2tzFITcozBpjWewKK8dtUs8T/aYsMA7N0rEq6zgmajv3x0C3eG7MniEyfSXE3iP2fzSA=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (25.8ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "sup"], ["description", "test"], ["created_at", "2018-06-09 17:59:48.792961"], ["updated_at", "2018-06-09 17:59:48.792961"]]
+  [1m[35m (2.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 89ms (ActiveRecord: 29.3ms)
+
+
+Started GET "/posts" for ::1 at 2018-06-09 10:59:48 -0700
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for ::1 at 2018-06-09 11:00:08 -0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
