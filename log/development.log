@@ -112,3 +112,177 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-07-11 15:05:02 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 16ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new/post" for ::1 at 2018-07-11 15:05:22 -0700
+
+ActionController::RoutingError (No route matches [GET] "/new/post"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/sonia/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/sonia/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/sonia/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.8ms)
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.4ms)
+
+
+Started GET "/new" for ::1 at 2018-07-11 15:05:40 -0700
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.10) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.10) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.10) lib/rails/engine.rb:518:in `call'
+  railties (4.2.10) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/sonia/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/sonia/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/sonia/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.4ms)
+
+
+Started GET "/posts/new" for ::1 at 2018-07-11 15:07:31 -0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 345ms (Views: 344.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-07-11 15:07:32 -0700
+
+
+Started GET "/" for ::1 at 2018-07-11 15:09:56 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/sonia/.rvm/gems/ruby-2.3.3/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2018-07-11 15:09:59 -0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=My+new+post&post%5Bdescription%5D=Describes+the+post+" for ::1 at 2018-07-11 15:11:04 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My new post", "description"=>"Describes the post "}}
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=My+new+post&post%5Bdescription%5D=describes+this+post+" for ::1 at 2018-07-11 15:11:24 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My new post", "description"=>"describes this post "}}
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=My+new+post&post%5Bdescription%5D=Description" for ::1 at 2018-07-11 15:13:33 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My new post", "description"=>"Description"}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=&post%5Bdescription%5D=" for ::1 at 2018-07-11 15:13:36 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"", "description"=>""}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=&post%5Bdescription%5D=" for ::1 at 2018-07-11 15:18:03 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"", "description"=>""}}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=&post%5Bdescription%5D=" for ::1 at 2018-07-11 15:18:04 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"", "description"=>""}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=My+new+post&post%5Bdescription%5D=post+" for ::1 at 2018-07-11 15:18:12 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My new post", "description"=>"post "}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=&post%5Bdescription%5D=" for ::1 at 2018-07-11 15:18:14 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"", "description"=>""}}
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=My+new+post&post%5Bdescription%5D=new" for ::1 at 2018-07-11 15:18:51 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My new post", "description"=>"new"}}
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for ::1 at 2018-07-11 15:24:26 -0700
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=My+new+post&post%5Bdescription%5D=new%0D%0A&authenticity_token=Ev%2F1fVUFUf8BXgKOBMrWsGLojpJJ0hf0boUzygM4Dx5P3PDSYWMNfBu7lfuyfmPZKwLqND1SQmqNEyqK4uOkaw%3D%3D" for ::1 at 2018-07-11 15:24:42 -0700
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"My new post", "description"=>"new\r\n"}, "authenticity_token"=>"Ev/1fVUFUf8BXgKOBMrWsGLojpJJ0hf0boUzygM4Dx5P3PDSYWMNfBu7lfuyfmPZKwLqND1SQmqNEyqK4uOkaw=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
