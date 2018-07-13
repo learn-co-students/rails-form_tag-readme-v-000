@@ -112,3 +112,78 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.199.203.18 at 2018-07-13 17:21:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 30ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 73.199.203.18 at 2018-07-13 17:21:58 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 411ms (Views: 410.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 73.199.203.18 at 2018-07-13 17:21:59 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 73.199.203.18 at 2018-07-13 17:21:59 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 73.199.203.18 at 2018-07-13 17:21:59 +0000
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 73.199.203.18 at 2018-07-13 17:21:59 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 73.199.203.18 at 2018-07-13 17:21:59 +0000
+
+
+Started POST "/posts" for 73.199.203.18 at 2018-07-13 17:22:13 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"test", "description"=>"this is a test"}, "authenticity_token"=>"QT1jZWVMp7xkD8khCMI3we4kC3MWEBnL9Pr7ixRTeTwPzlhk6gjcKco+OiQWvlOBm5TFrHwb9HFWbQHnEkduiw=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "test"], ["description", "test"], ["created_at", "2018-07-13 17:22:13.911093"], ["updated_at", "2018-07-13 17:22:13.911093"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+Redirected to http://165.227.81.218:42044/posts
+Completed 302 Found in 16ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/posts" for 73.199.203.18 at 2018-07-13 17:22:13 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.9ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 73.199.203.18 at 2018-07-13 17:23:17 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 33ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 73.199.203.18 at 2018-07-13 17:23:25 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 259ms (Views: 258.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 73.199.203.18 at 2018-07-13 17:23:35 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"test", "description"=>"this is a test post"}, "authenticity_token"=>"bSS9YZT0+lFu5QAMKu+LwTjp+XkzLcD0SjhMKRRVmVwj14ZgG7CBxMDU8wk0k++BTVk3plkmLU7or7ZFEkGO6w=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "test"], ["description", "this is a test post"], ["created_at", "2018-07-13 17:23:35.494951"], ["updated_at", "2018-07-13 17:23:35.494951"]]
+  [1m[35m (8.9ms)[0m  commit transaction
+Redirected to http://165.227.81.218:42044/posts
+Completed 302 Found in 19ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/posts" for 73.199.203.18 at 2018-07-13 17:23:35 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.2ms)
