@@ -460,3 +460,134 @@ Processing by PostsController#index as HTML
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.erb within layouts/application (1.3ms)
 Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts" for 47.204.17.76 at 2018-07-29 04:58:11 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 263ms (Views: 252.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts" for 47.204.17.76 at 2018-07-29 04:58:13 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts" for 47.204.17.76 at 2018-07-29 04:58:16 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"post_title"=>"SUPER", "description"=>"SUPER DUPER\r\n"}, "authenticity_token"=>"D510eMqQu7m7roobw/R9SW7vE+waKXQErSNEgQ0/tZjZSUVKPp5VZ8TfxrRrtMOx/fI5TlXjlUOM4LZquw5+Gw=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "SUPER DUPER\r\n"], ["created_at", "2018-07-29 04:58:16.406241"], ["updated_at", "2018-07-29 04:58:16.406241"]]
+  [1m[35m (49.4ms)[0m  commit transaction
+Redirected to http://159.89.225.105:45147/posts
+Completed 302 Found in 55ms (ActiveRecord: 49.8ms)
+
+
+Started GET "/posts" for 47.204.17.76 at 2018-07-29 04:58:16 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for 47.204.17.76 at 2018-07-29 04:58:21 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 47.204.17.76 at 2018-07-29 04:58:21 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 47.204.17.76 at 2018-07-29 04:58:21 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 47.204.17.76 at 2018-07-29 04:58:21 +0000
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 47.204.17.76 at 2018-07-29 04:58:21 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 47.204.17.76 at 2018-07-29 04:58:21 +0000
+
+
+Started POST "/posts" for 47.204.17.76 at 2018-07-29 04:58:37 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gs478hIZx4iBr/TgPUGSU0kNx1sYn39GbiUoA0jm+HtUGgrA5hcpVv7euE+VASyr2hDt+VdVngFP5tro/tcz+A==", "post"=>{"title"=>"Awesome", "description"=>"Saucey stuff of the heavens "}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Awesome"], ["description", "Saucey stuff of the heavens "], ["created_at", "2018-07-29 04:58:37.278007"], ["updated_at", "2018-07-29 04:58:37.278007"]]
+  [1m[35m (78.3ms)[0m  commit transaction
+Redirected to http://159.89.225.105:45147/posts
+Completed 302 Found in 82ms (ActiveRecord: 78.7ms)
+
+
+Started GET "/posts" for 47.204.17.76 at 2018-07-29 04:58:37 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for 47.204.17.76 at 2018-07-29 04:58:39 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 47.204.17.76 at 2018-07-29 04:58:39 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 47.204.17.76 at 2018-07-29 04:58:39 +0000
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 47.204.17.76 at 2018-07-29 04:58:39 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 47.204.17.76 at 2018-07-29 04:58:39 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 47.204.17.76 at 2018-07-29 04:58:39 +0000
+
+
+Started POST "/posts" for 47.204.17.76 at 2018-07-29 05:03:40 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sHLs8e7rQSm62WaHEkN3TmxEn6u67ti6k8CwoWUY7iNmpt3DGuWv98WoKii6A8m2/1m1CfUkOf2yA0JK0ykloA==", "post"=>{"title"=>"Something ", "description"=>"veryspecialtosee"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Something "], ["description", "veryspecialtosee"], ["created_at", "2018-07-29 05:03:40.915422"], ["updated_at", "2018-07-29 05:03:40.915422"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+Redirected to http://159.89.225.105:45147/posts
+Completed 302 Found in 20ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/posts" for 47.204.17.76 at 2018-07-29 05:03:41 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 288ms (Views: 287.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/new" for 47.204.17.76 at 2018-07-29 05:08:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 247ms (Views: 238.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 47.204.17.76 at 2018-07-29 05:08:00 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 47.204.17.76 at 2018-07-29 05:08:01 +0000
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 47.204.17.76 at 2018-07-29 05:08:01 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 47.204.17.76 at 2018-07-29 05:08:01 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 47.204.17.76 at 2018-07-29 05:08:01 +0000
