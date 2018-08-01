@@ -56,6 +56,8 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
   end
 
+  config.include Capybara::DSL
+
   config.infer_spec_type_from_file_location!
 
   # Filter lines from Rails gems in backtraces.
