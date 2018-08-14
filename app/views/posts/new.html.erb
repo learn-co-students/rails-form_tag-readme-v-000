@@ -1,13 +1,15 @@
 <h1>Post Form</h1>
 
-<%= form_tag posts_path do %>
-  <label>Post title:</label><br>
-  <%= text_field_tag :'post[title]'%><br>
+<form action="<%= posts_path %>" method="POST">
+  <!-- <label>Post title:</label> -->
+  <%= label_tag 'Post title:' %>
+  <%= text_field_tag :'post[title]' %><br>
 
-  <label>Post description:</label><br>
+  <!-- <label>Post description:</label><br> -->
+  <%= label_tag 'Post description:' %>
   <%= text_area_tag :'post[description]' %><br>
 
-  <%= submit_tag "Submit Post" %>
-<% end %>
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
 
-<%= params.inspect %>
+  <%= submit_tag "Submit Post"%>
+</form>
