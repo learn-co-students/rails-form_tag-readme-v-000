@@ -40,7 +40,7 @@ standard RESTful convention of `new_post_path` for the route helper name:
 # specs/features/post_spec.rb
 
 require 'rails_helper'
-
+                       
 describe 'new post' do
   it 'ensures that the form route works with the /new action' do
     visit new_post_path
