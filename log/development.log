@@ -112,3 +112,64 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-14 16:01:08 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Michelle/.rvm/gems/ruby-2.3.3/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 62ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2018-10-14 16:01:15 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 626ms (Views: 623.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2018-10-14 16:01:15 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-10-14 16:01:15 -0400
+
+
+Started GET "/posts/new" for ::1 at 2018-10-14 16:01:20 -0400
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2018-10-14 16:01:31 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"t", "description"=>"r"}, "authenticity_token"=>"K3pkQYasIREwoe/u7v2Tt4SjsBoPGEwEF0ydoL5gKdCgaDeihY0qscYrDqTXv9UxHzIuVhbiS+QXL1Ncl3BpkQ=="}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "t"], ["description", "r"], ["created_at", "2018-10-14 20:01:31.482060"], ["updated_at", "2018-10-14 20:01:31.482060"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 41ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/posts" for ::1 at 2018-10-14 16:01:31 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 120ms (Views: 118.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts" for ::1 at 2018-10-14 16:04:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"t", "description"=>"r"}, "authenticity_token"=>"K3pkQYasIREwoe/u7v2Tt4SjsBoPGEwEF0ydoL5gKdCgaDeihY0qscYrDqTXv9UxHzIuVhbiS+QXL1Ncl3BpkQ=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (27.6ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "t"], ["description", "r"], ["created_at", "2018-10-14 20:04:54.022848"], ["updated_at", "2018-10-14 20:04:54.022848"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 55ms (ActiveRecord: 29.9ms)
+
+
+Started GET "/posts" for ::1 at 2018-10-14 16:04:54 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 333ms (Views: 331.4ms | ActiveRecord: 0.2ms)
