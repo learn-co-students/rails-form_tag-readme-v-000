@@ -1,0 +1,23 @@
+<h3>Post Form</h3>
+
+<!-- <form action=<%= posts_path %> method="POST"> -->
+
+<%= form_tag posts_path do %>
+    <label>Post title:</label>
+    <!-- REFACTOR THIS USING "text_field_tag" ==> <input type="text" id="post_title" name="post[title]"> -->
+    <%= text_field_tag :'post[title]' %><br> 
+
+    <label>Post description:</label>
+    <!-- REFACTOR THIS USING "text_area_tag" ==> <textarea id="post_description" name="post[description]"></textarea> -->
+    <%= text_area_tag :'post[description]' %><br>
+
+    
+    <!--CAN REPLACE THIS WITH 'hidden_field_tag' ==> <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"> -->
+    <!-- can remove this now because the form_tag automatically generates  the necessary authenticity token ==>  <%= hidden_field_tag :authenticity_token, form_authenticity_token %> -->
+
+    <!-- REFACTOR THIS USING "text_area_tag" ==>  <input type="submit" value="Submit Post"> -->
+    <%= submit_tag "Submit Post" %>
+<% end %>
+<!-- </form> -->
+
+<%= params.inspect %>
