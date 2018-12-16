@@ -142,3 +142,93 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 71.218.56.236 at 2018-12-15 22:40:12 +0000
+
+
+Started GET "/" for 71.218.56.236 at 2018-12-16 15:05:19 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 30ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 71.218.56.236 at 2018-12-16 15:05:35 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 493ms (Views: 492.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 71.218.56.236 at 2018-12-16 15:05:36 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 71.218.56.236 at 2018-12-16 15:05:36 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 71.218.56.236 at 2018-12-16 15:05:36 +0000
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 71.218.56.236 at 2018-12-16 15:05:36 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 71.218.56.236 at 2018-12-16 15:05:36 +0000
+
+
+Started POST "/posts" for 71.218.56.236 at 2018-12-16 15:05:40 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S42sQ3YEcPiPTwa7xMlHozJn+RXel62GVmtv6VNC0Jxy+Bea0UESbQ/qdH40BgDu4MAQvpngIGXmzJOtJIItsg==", "post"=>{"title"=>"sdasdas", "description"=>"asdasd"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "sdasdas"], ["description", "asdasd"], ["created_at", "2018-12-16 15:05:40.830404"], ["updated_at", "2018-12-16 15:05:40.830404"]]
+  [1m[35m (2.9ms)[0m  commit transaction
+Redirected to http://165.227.31.156:48885/posts
+Completed 302 Found in 21ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/posts" for 71.218.56.236 at 2018-12-16 15:05:40 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 71.218.56.236 at 2018-12-16 17:55:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 25ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 71.218.56.236 at 2018-12-16 18:06:19 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 503ms (Views: 502.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 71.218.56.236 at 2018-12-16 18:06:20 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 71.218.56.236 at 2018-12-16 18:06:20 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 71.218.56.236 at 2018-12-16 18:06:20 +0000
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 71.218.56.236 at 2018-12-16 18:06:20 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 71.218.56.236 at 2018-12-16 18:06:20 +0000
+
+
+Started POST "/posts" for 71.218.56.236 at 2018-12-16 18:06:29 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"title"=>"New Post", "description"=>"Post description"}, "authenticity_token"=>"j9Y8dIjyJS4IRGUq5H5P7oQ2sH7c94bAi9Gg5LDKokK2o4etL7dHu4jhF+8UsQijVpFZ1ZuACyM7dlygxwpfbA=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "New Post"], ["description", "Post description"], ["created_at", "2018-12-16 18:06:29.073506"], ["updated_at", "2018-12-16 18:06:29.073506"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://165.227.31.156:51298/posts
+Completed 302 Found in 23ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/posts" for 71.218.56.236 at 2018-12-16 18:06:29 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.2ms)
