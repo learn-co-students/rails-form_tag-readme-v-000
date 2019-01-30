@@ -1,5 +1,6 @@
-<ul>
-  <% @posts.each do |p| %>
-    <li><%= p.title %> - <%= p.description %></li>
+<div>
+  <% @posts.each do |post| %>
+
+    <div><%= link_to post.title, posts_path(post) %>  <%= post.description %></div>
   <% end %>
-</ul>
+</div>
