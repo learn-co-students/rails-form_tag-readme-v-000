@@ -112,3 +112,87 @@ Processing by PostsController#new as HTML
   Parameters: {"post"=>{"action"=>"create", "authenticity_token"=>"wM0kUAuTuVVs64yO9C+2FgVExLWEkXYBL4fHjMvdHb/wXQBnEIZ1bXK7fKn5neP40gN03qULwt9kcGv5dkFKWg==", "commit"=>"Submit Post", "controller"=>"posts", "description"=>"asdf", "title"=>"Rails Introduction Quiz", "utf8"=>"✓"}}
   Rendered posts/new.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.55.166.131 at 2019-02-20 22:43:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 19ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 99.55.166.131 at 2019-02-20 22:43:32 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 392ms (Views: 390.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 99.55.166.131 at 2019-02-20 22:43:33 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 99.55.166.131 at 2019-02-20 22:43:33 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 99.55.166.131 at 2019-02-20 22:43:33 +0000
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 99.55.166.131 at 2019-02-20 22:43:33 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 99.55.166.131 at 2019-02-20 22:43:33 +0000
+
+
+Started GET "/posts/new" for 99.55.166.131 at 2019-02-20 22:43:40 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 99.55.166.131 at 2019-02-20 22:44:09 +0000
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=test&post%5Bdescription%5D=test12&authenticity_token=nUgoQHUQyIQQNIXwhWhXfaOdPzKotdkdqbbfDJX5QOIPp5w3o8KVzC%2FALaiF%2BT%2FypXkmOd%2FnlEBIZ7%2F7JO1R8Q%3D%3D" for 99.55.166.131 at 2019-02-20 22:44:18 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"test", "description"=>"test12"}, "authenticity_token"=>"nUgoQHUQyIQQNIXwhWhXfaOdPzKotdkdqbbfDJX5QOIPp5w3o8KVzC/ALaiF+T/ypXkmOd/nlEBIZ7/7JO1R8Q=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=&post%5Bdescription%5D=&authenticity_token=Doe0JUalHnMhOUrZFLyPurj2BUcIAjiTgy0my%2B5EVpicaABSkHdDOx7N4oEULec1vhIcTH9Qdc5i%2FEY8X1BHiw%3D%3D" for 99.55.166.131 at 2019-02-20 22:45:21 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"", "description"=>""}, "authenticity_token"=>"Doe0JUalHnMhOUrZFLyPurj2BUcIAjiTgy0my+5EVpicaABSkHdDOx7N4oEULec1vhIcTH9Qdc5i/EY8X1BHiw=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new?post%5Btitle%5D=kdbk&post%5Bdescription%5D=kbdkbdkb&authenticity_token=%2FjCnkRBqQGiOA8%2BAZW56wdDP1%2Ff77pjOfwKpmDUuEDps3xPmxrgdILH3Z9hl%2FxJO1ivO%2FIy81ZOe08lvhDoBKQ%3D%3D" for 99.55.166.131 at 2019-02-20 22:45:30 +0000
+Processing by PostsController#new as HTML
+  Parameters: {"post"=>{"title"=>"kdbk", "description"=>"kbdkbdkb"}, "authenticity_token"=>"/jCnkRBqQGiOA8+AZW56wdDP1/f77pjOfwKpmDUuEDps3xPmxrgdILH3Z9hl/xJO1ivO/Iy81ZOe08lvhDoBKQ=="}
+  Rendered posts/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/" for 99.55.166.131 at 2019-02-20 22:47:05 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts" for 99.55.166.131 at 2019-02-20 22:47:09 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts" for 99.55.166.131 at 2019-02-20 22:47:13 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+  [1m[36mPost Load (1.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
