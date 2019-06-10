@@ -1,0 +1,11 @@
+<h3>Post Form</h3>
+<form>
+    <label>Post title:</label>
+    <input type="text" id="post_title" name="post[title]"><br>
+    <label>Post description:</label><br>
+    <textarea name="post_description" id="post[description]"></textarea><br>
+
+    <input type="submit" value="Submit Post">
+
+    <%= params.inspect %>
+</form>
