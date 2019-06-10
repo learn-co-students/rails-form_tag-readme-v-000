@@ -1,5 +1,6 @@
 require 'rails_helper'
 
+#rails g rspec:install to make custom specs run with learn - Ashley
 describe 'new post' do
     it 'ensures that the form route works with the
     /new action' do

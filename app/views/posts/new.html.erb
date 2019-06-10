@@ -1,0 +1,17 @@
+<h3>Post Form</h3>
+<form>
+    <label>Post title:</label>
+    <%= text_field_tag :'post[title]' %><br>
+    <!-- ^ Helper method using erb tags and breaks and replaces <input type="text" id="post_title" name="post[title]"><br> -->
+    <label>Post description:</label><br>
+    <%= text_area_tag :'post[description]'%>
+     <!-- ^ Helper method using erb tags and breaks and replaces <textarea name="post_description" id="post[description]"></textarea><br> -->
+    
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <!-- replaces <input type="hidden" name="authenticity_token" id="authenticity_token" value="7SuubeJGbqfm4rO+F5VTS6Wl1SNCTGOr/mrYZKOQLbtICzajfcEHL6n5h2n4FPHqTieBmep1MhgMr6w+SapR0A==" /> -->
+    <!--Rails blocks hacks from happening by default by requiring that a unique authenticity token be submitted with each form. This authenticity token is stored in the session and can't be hijacked by hackers: -->
+    
+    <input type="submit" value="Submit Post">
+
+    <%= params.inspect %>
+</form>
