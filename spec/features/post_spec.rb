@@ -15,9 +15,9 @@ describe 'new post' do
    expect(page).to have_content('My post description')
  end
 
- # it 'renders the HTML in the /new template' do
- #    visit new_post_path
- #    expect(page).to have_content('Post Form')
- #  end
+ it 'renders the HTML in the /new template' do
+    visit new_post_path
+    expect(page).to have_content('Post Form')
+  end
 
 end
